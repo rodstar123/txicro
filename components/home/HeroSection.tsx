@@ -31,18 +31,18 @@ export default function HeroSection({ locale }: HeroSectionProps) {
 
   return (
     <section className="-mt-16 lg:-mt-[72px] relative bg-navy min-h-[60vh] lg:min-h-[80vh] flex items-center justify-center overflow-hidden">
-      {/* Background image */}
+      {/* Background image — McAllen-Hidalgo International Bridge aerial */}
       <Image
-        src="/images/hero-bridge.jpeg"
-        alt=""
+        src="/images/mce-bridge.jpg"
+        alt="Aerial view of the McAllen-Hidalgo International Bridge crossing the Rio Grande between Texas and Mexico"
         fill
         priority
-        className="object-cover object-center"
+        className="object-cover object-[center_40%] sm:object-center"
         sizes="100vw"
         quality={85}
       />
-      {/* Dark navy overlay at 68% opacity */}
-      <div className="absolute inset-0 bg-navy/[0.68]" />
+      {/* Dark navy overlay at 57% opacity */}
+      <div className="absolute inset-0 bg-navy/[0.57]" />
 
       <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-32 lg:pt-[120px] pb-16 lg:pb-20">
         <h1 className="font-heading text-4xl sm:text-5xl lg:text-6xl text-white font-bold text-balance leading-tight">
