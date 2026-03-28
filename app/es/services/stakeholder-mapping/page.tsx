@@ -54,7 +54,7 @@ Mapeamos actores en instituciones públicas incluyendo corporaciones de desarrol
           'Un documento informativo para cada reunión o presentación planificada',
           'Un sistema de seguimiento para mantener el impulso después del contacto inicial',
         ],
-        methodology: `Comenzamos por entender sus objetivos y el tipo de actores más relevantes para su éxito. Luego nos basamos en seis décadas de relaciones locales para mapear el panorama — no desde una base de datos, sino desde conocimiento directo de quién hace qué, quién influye a quién, y cómo se toman realmente las decisiones en el Valle del Río Grande.`,
+        methodology: `Comenzamos por entender sus objetivos y el tipo de actores más relevantes para su éxito. Luego nos basamos en décadas de relaciones locales para mapear el panorama — no desde una base de datos, sino desde conocimiento directo de quién hace qué, quién influye a quién, y cómo se toman realmente las decisiones en el Valle del Río Grande.`,
         faqs: [
           {
             question: '¿Realizan presentaciones directamente?',

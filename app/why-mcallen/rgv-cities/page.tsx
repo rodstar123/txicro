@@ -36,7 +36,7 @@ export default function RGVCitiesPage() {
           'Rio Grande Valley Partnership',
           'USDA APHIS (Pharr crossing)',
         ],
-        howTxicroHelps: `Navigating the RGV requires understanding how the pieces fit together. TXICRO has operated across these cities for sixty years \u2014 we know which city is right for which type of operation, which economic development agencies are most responsive, which infrastructure investments are changing the regional map, and how to structure operations that take advantage of the entire Valley\u2019s resources rather than limiting yourself to a single city.`,
+        howTxicroHelps: `Navigating the RGV requires understanding how the pieces fit together. TXICRO has operated across these cities for decades \u2014 we know which city is right for which type of operation, which economic development agencies are most responsive, which infrastructure investments are changing the regional map, and how to structure operations that take advantage of the entire Valley\u2019s resources rather than limiting yourself to a single city.`,
         relatedCorridors: [
           { title: 'McAllen \u2194 Monterrey', href: '/why-mcallen/monterrey' },
           { title: 'McAllen vs Laredo', href: '/why-mcallen/vs-laredo' },

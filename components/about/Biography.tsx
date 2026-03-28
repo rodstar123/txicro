@@ -10,7 +10,7 @@ const content = {
       {
         heading: 'Born in McAllen. Built for the Border.',
         paragraphs: [
-          'Noe Rodriguez was born and raised in McAllen, Texas \u2014 a city that sits at the intersection of two nations, two cultures, and two economies. For sixty years, he has called the Rio Grande Valley home. Not as a visitor or a transplant, but as a native son who has watched this region evolve from a quiet agricultural corridor into one of the most strategically important cross-border commerce zones in the Western Hemisphere.',
+          'Noe Rodriguez was born and raised in McAllen, Texas \u2014 a city that sits at the intersection of two nations, two cultures, and two economies. For his entire life, he has called the Rio Grande Valley home. Not as a visitor or a transplant, but as a native son who has watched this region evolve from a quiet agricultural corridor into one of the most strategically important cross-border commerce zones in the Western Hemisphere.',
           'That evolution did not happen by accident, and Noe was not a spectator. He has spent his career building businesses that operate across borders \u2014 navigating the regulatory frameworks, cultural nuances, and operational realities that define US-Latin America commerce. He understands the landscape not from a textbook, but from decades of doing business in it.',
         ],
       },
@@ -41,7 +41,7 @@ const content = {
         paragraphs: [
           'What distinguishes Noe from consultants who parachute into border markets is permanence. He is not passing through. His family, his businesses, his community, and his reputation are all here \u2014 in McAllen, in the Valley, on the border.',
           'When he advises a foreign investor on where to locate a warehouse, he knows the neighborhoods. When he maps stakeholders for a trade delegation, he knows the people. When he evaluates a market entry strategy, he knows which assumptions hold and which ones collapse under local reality.',
-          'This is not expertise that can be acquired from a distance. It is the product of sixty years of living, working, and building in a place that most outside advisors only visit.',
+          'This is not expertise that can be acquired from a distance. It is the product of a lifetime of living, working, and building in a place that most outside advisors only visit.',
         ],
       },
     ],
@@ -51,7 +51,7 @@ const content = {
       {
         heading: 'Nacido en McAllen. Forjado en la Frontera.',
         paragraphs: [
-          'Noe Rodriguez naci\u00f3 y creci\u00f3 en McAllen, Texas \u2014 una ciudad que se encuentra en la intersecci\u00f3n de dos naciones, dos culturas y dos econom\u00edas. Durante sesenta a\u00f1os, ha llamado hogar al Valle del R\u00edo Grande. No como visitante ni como reci\u00e9n llegado, sino como un hijo nativo que ha visto a esta regi\u00f3n evolucionar de un tranquilo corredor agr\u00edcola a una de las zonas de comercio transfronterizo m\u00e1s estrat\u00e9gicamente importantes del hemisferio occidental.',
+          'Noe Rodriguez naci\u00f3 y creci\u00f3 en McAllen, Texas \u2014 una ciudad que se encuentra en la intersecci\u00f3n de dos naciones, dos culturas y dos econom\u00edas. Durante toda su vida, ha llamado hogar al Valle del R\u00edo Grande. No como visitante ni como reci\u00e9n llegado, sino como un hijo nativo que ha visto a esta regi\u00f3n evolucionar de un tranquilo corredor agr\u00edcola a una de las zonas de comercio transfronterizo m\u00e1s estrat\u00e9gicamente importantes del hemisferio occidental.',
           'Esa evoluci\u00f3n no sucedi\u00f3 por casualidad, y Noe no fue un espectador. Ha dedicado su carrera a construir negocios que operan a trav\u00e9s de fronteras \u2014 navegando los marcos regulatorios, los matices culturales y las realidades operacionales que definen el comercio entre Estados Unidos y Am\u00e9rica Latina. Entiende el panorama no desde un libro de texto, sino desde d\u00e9cadas de hacer negocios en \u00e9l.',
         ],
       },
@@ -82,7 +82,7 @@ const content = {
         paragraphs: [
           'Lo que distingue a Noe de los consultores que aterrizan en los mercados fronterizos es la permanencia. No est\u00e1 de paso. Su familia, sus negocios, su comunidad y su reputaci\u00f3n est\u00e1n todos aqu\u00ed \u2014 en McAllen, en el Valle, en la frontera.',
           'Cuando asesora a un inversionista extranjero sobre d\u00f3nde ubicar un almac\u00e9n, conoce los vecindarios. Cuando mapea actores clave para una delegaci\u00f3n comercial, conoce a las personas. Cuando eval\u00faa una estrategia de entrada al mercado, sabe cu\u00e1les supuestos se sostienen y cu\u00e1les se desmoronan ante la realidad local.',
-          'Esta no es una experiencia que pueda adquirirse a distancia. Es el producto de sesenta a\u00f1os de vivir, trabajar y construir en un lugar que la mayor\u00eda de los asesores externos solo visitan.',
+          'Esta no es una experiencia que pueda adquirirse a distancia. Es el producto de toda una vida de vivir, trabajar y construir en un lugar que la mayor\u00eda de los asesores externos solo visitan.',
         ],
       },
     ],

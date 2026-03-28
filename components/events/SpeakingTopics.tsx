@@ -7,7 +7,7 @@ interface SpeakingTopicsProps {
 const content = {
   en: {
     title: 'Invite TXICRO to Your Event',
-    intro: 'Noe Rodriguez is available for speaking engagements, panel participation, and trade mission coordination. His presentations draw on six decades of experience in the Rio Grande Valley and a practitioner\u2019s understanding of cross-border commerce.',
+    intro: 'Noe Rodriguez is available for speaking engagements, panel participation, and trade mission coordination. His presentations draw on decades of experience in the Rio Grande Valley and a practitioner\u2019s understanding of cross-border commerce.',
     topicsLabel: 'Topics Noe speaks on:',
     topics: [
       {

@@ -20,7 +20,7 @@ const content = {
       {
         title: 'McAllen-Based, Globally Connected',
         description:
-          'Rooted in the Rio Grande Valley with six decades of local knowledge. McAllen sits at the crossroads of US-Latin America commerce, and TXICRO sits at the center of McAllen.',
+          'Rooted in the Rio Grande Valley with decades of local knowledge. McAllen sits at the crossroads of US-Latin America commerce, and TXICRO sits at the center of McAllen.',
       },
     ],
   },
@@ -39,7 +39,7 @@ const content = {
       {
         title: 'Basados en McAllen, Conectados Globalmente',
         description:
-          'Enraizados en el Valle del Río Grande con seis décadas de conocimiento local. McAllen se ubica en la encrucijada del comercio entre Estados Unidos y América Latina, y TXICRO se encuentra en el centro de McAllen.',
+          'Enraizados en el Valle del Río Grande con décadas de conocimiento local. McAllen se ubica en la encrucijada del comercio entre Estados Unidos y América Latina, y TXICRO se encuentra en el centro de McAllen.',
       },
     ],
   },

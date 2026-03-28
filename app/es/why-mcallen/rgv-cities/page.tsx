@@ -36,7 +36,7 @@ export default function RGVCitiesPageES() {
           'Rio Grande Valley Partnership',
           'USDA APHIS (cruce de Pharr)',
         ],
-        howTxicroHelps: `Navegar el VRG requiere entender c\u00f3mo encajan las piezas. TXICRO ha operado a trav\u00e9s de estas ciudades durante sesenta a\u00f1os \u2014 sabemos qu\u00e9 ciudad es adecuada para qu\u00e9 tipo de operaci\u00f3n, qu\u00e9 agencias de desarrollo econ\u00f3mico son m\u00e1s receptivas, qu\u00e9 inversiones en infraestructura est\u00e1n cambiando el mapa regional, y c\u00f3mo estructurar operaciones que aprovechen los recursos de todo el Valle en lugar de limitarse a una sola ciudad.`,
+        howTxicroHelps: `Navegar el VRG requiere entender c\u00f3mo encajan las piezas. TXICRO ha operado a trav\u00e9s de estas ciudades durante d\u00e9cadas \u2014 sabemos qu\u00e9 ciudad es adecuada para qu\u00e9 tipo de operaci\u00f3n, qu\u00e9 agencias de desarrollo econ\u00f3mico son m\u00e1s receptivas, qu\u00e9 inversiones en infraestructura est\u00e1n cambiando el mapa regional, y c\u00f3mo estructurar operaciones que aprovechen los recursos de todo el Valle en lugar de limitarse a una sola ciudad.`,
         relatedCorridors: [
           { title: 'McAllen \u2194 Monterrey', href: '/es/why-mcallen/monterrey' },
           { title: 'McAllen vs Laredo', href: '/es/why-mcallen/vs-laredo' },

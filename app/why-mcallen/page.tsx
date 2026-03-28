@@ -37,7 +37,7 @@ export default function WhyMcAllenPage() {
       <CTASection
         locale="en"
         heading="Exploring McAllen for Your Next Expansion?"
-        subtext="If you are evaluating McAllen or the Rio Grande Valley as a location for your business, an initial assessment will give you the structured intelligence you need to make a confident decision. We know this region because we have spent sixty years building in it."
+        subtext="If you are evaluating McAllen or the Rio Grande Valley as a location for your business, an initial assessment will give you the structured intelligence you need to make a confident decision. We know this region because we have spent a lifetime building in it."
         buttonText="Request an Assessment"
       />
     </>

@@ -54,7 +54,7 @@ We map stakeholders across public institutions including economic development co
           'A briefing document for each planned meeting or introduction',
           'A follow-up tracking system to maintain momentum after initial contact',
         ],
-        methodology: `We start by understanding your objectives and the type of stakeholders most relevant to your success. We then draw on six decades of local relationships to map the landscape — not from a database, but from direct knowledge of who does what, who influences whom, and how decisions actually get made in the Rio Grande Valley.`,
+        methodology: `We start by understanding your objectives and the type of stakeholders most relevant to your success. We then draw on decades of local relationships to map the landscape — not from a database, but from direct knowledge of who does what, who influences whom, and how decisions actually get made in the Rio Grande Valley.`,
         faqs: [
           {
             question: 'Do you make introductions directly?',

@@ -37,7 +37,7 @@ export default function WhyMcAllenPageES() {
       <CTASection
         locale="es"
         heading="\u00bfExplorando McAllen para Su Pr\u00f3xima Expansi\u00f3n?"
-        subtext="Si est\u00e1 evaluando McAllen o el Valle del R\u00edo Grande como ubicaci\u00f3n para su negocio, una evaluaci\u00f3n inicial le dar\u00e1 la inteligencia estructurada que necesita para tomar una decisi\u00f3n con confianza. Conocemos esta regi\u00f3n porque hemos pasado sesenta a\u00f1os construyendo en ella."
+        subtext="Si est\u00e1 evaluando McAllen o el Valle del R\u00edo Grande como ubicaci\u00f3n para su negocio, una evaluaci\u00f3n inicial le dar\u00e1 la inteligencia estructurada que necesita para tomar una decisi\u00f3n con confianza. Conocemos esta regi\u00f3n porque hemos pasado toda una vida construyendo en ella."
         buttonText="Solicitar una Evaluaci\u00f3n"
       />
     </>

@@ -10,7 +10,7 @@ import { Container } from '@/components/ui';
 export const metadata = generatePageMetadata({
   title: 'About Noe Rodriguez | Founder & Advisor | TXICRO',
   description:
-    'Noe Rodriguez — born and raised in McAllen, TX. 60 years in the Rio Grande Valley. Entrepreneur, cross-border commerce advisor, and founder of TXICRO.',
+    'Noe Rodriguez — born and raised in McAllen, TX. A lifetime in the Rio Grande Valley. Entrepreneur, cross-border commerce advisor, and founder of TXICRO.',
   path: '/about',
   locale: 'en',
 });
