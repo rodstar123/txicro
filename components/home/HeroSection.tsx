@@ -6,7 +6,7 @@ interface HeroSectionProps {
 
 const content = {
   en: {
-    headline: 'Bridging Texas and Latin America — With Clarity, Not Commissions',
+    headline: 'Welcome to the Gateway — An Office for International Commerce and Relations',
     subheadline:
       'TXICRO is an independent, fee-based advisory office in McAllen, Texas, helping international organizations enter and expand in the United States with confidence. We advise. We coordinate. We prepare you to move with precision.',
     ctaPrimary: 'Request an Assessment',
@@ -16,7 +16,7 @@ const content = {
     ctaSecondaryHref: '#',
   },
   es: {
-    headline: 'Conectando Texas y América Latina — Con Claridad, Sin Comisiones',
+    headline: 'Bienvenidos al Portal — Una Oficina de Comercio Internacional y Relaciones',
     subheadline:
       'TXICRO es una oficina de asesoría independiente y basada en honorarios en McAllen, Texas, que ayuda a organizaciones internacionales a ingresar y expandirse en los Estados Unidos con confianza. Asesoramos. Coordinamos. Lo preparamos para actuar con precisión.',
     ctaPrimary: 'Solicitar una Evaluación',
