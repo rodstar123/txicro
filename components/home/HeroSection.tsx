@@ -6,9 +6,8 @@ interface HeroSectionProps {
 
 const content = {
   en: {
-    headline: 'Welcome to the Gateway — An Office for International Commerce and Relations',
-    subheadline:
-      'TXICRO is an independent, fee-based advisory office in McAllen, Texas, helping international organizations enter and expand in the United States with confidence. We advise. We coordinate. We prepare you to move with precision.',
+    headline: 'Where the Border Becomes a Bridge.',
+    subheadline: 'TXICRO — An Office for International Commerce and Relations. McAllen, Texas.',
     ctaPrimary: 'Request an Assessment',
     ctaSecondary: 'Download the McAllen Gateway Guide',
     founderLine: 'Noe Rodriguez — Founder & Principal Advisor',
@@ -16,9 +15,8 @@ const content = {
     ctaSecondaryHref: '#',
   },
   es: {
-    headline: 'Bienvenidos al Portal — Una Oficina de Comercio Internacional y Relaciones',
-    subheadline:
-      'TXICRO es una oficina de asesoría independiente y basada en honorarios en McAllen, Texas, que ayuda a organizaciones internacionales a ingresar y expandirse en los Estados Unidos con confianza. Asesoramos. Coordinamos. Lo preparamos para actuar con precisión.',
+    headline: 'Donde la Frontera Se Convierte en Puente.',
+    subheadline: 'TXICRO — Una Oficina de Comercio Internacional y Relaciones. McAllen, Texas.',
     ctaPrimary: 'Solicitar una Evaluación',
     ctaSecondary: 'Descargue la Guía de McAllen como Portal de Comercio',
     founderLine: 'Noe Rodriguez — Fundador y Asesor Principal',
