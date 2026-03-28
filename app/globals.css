@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-body text-slate bg-white antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading text-navy;
+  }
+
+  h1 { @apply text-4xl sm:text-5xl font-bold leading-tight; }
+  h2 { @apply text-3xl sm:text-4xl font-semibold leading-tight; }
+  h3 { @apply text-2xl sm:text-3xl font-semibold; }
+  h4 { @apply text-xl sm:text-2xl font-medium; }
+
+  ::selection {
+    background-color: #C9A84C;
+    color: #0A1628;
+  }
+
+  a {
+    @apply transition-colors duration-200;
+  }
+}
+
+@layer components {
+  .section-padding {
+    @apply py-12 sm:py-16 lg:py-20;
+  }
+
+  .gold-accent {
+    @apply h-0.5 bg-gold;
+  }
+
+  .card {
+    @apply bg-white rounded-card border border-gray-100 p-6 sm:p-8;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+}
