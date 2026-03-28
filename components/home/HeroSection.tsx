@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { Button } from '@/components/ui';
 
 interface HeroSectionProps {
@@ -30,14 +31,18 @@ export default function HeroSection({ locale }: HeroSectionProps) {
 
   return (
     <section className="-mt-16 lg:-mt-[72px] relative bg-navy min-h-[60vh] lg:min-h-[80vh] flex items-center justify-center overflow-hidden">
-      {/* Subtle radial gradient overlay */}
-      <div
-        className="absolute inset-0 pointer-events-none"
-        style={{
-          background:
-            'radial-gradient(ellipse at center, rgba(22,32,53,0.6) 0%, rgba(10,22,40,1) 70%)',
-        }}
+      {/* Background image */}
+      <Image
+        src="/images/hero-bridge.jpeg"
+        alt=""
+        fill
+        priority
+        className="object-cover object-center"
+        sizes="100vw"
+        quality={85}
       />
+      {/* Dark navy overlay at 68% opacity */}
+      <div className="absolute inset-0 bg-navy/[0.68]" />
 
       <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-32 lg:pt-[120px] pb-16 lg:pb-20">
         <h1 className="font-heading text-4xl sm:text-5xl lg:text-6xl text-white font-bold text-balance leading-tight">
