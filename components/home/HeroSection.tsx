@@ -31,16 +31,18 @@ export default function HeroSection({ locale }: HeroSectionProps) {
 
   return (
     <section className="-mt-16 lg:-mt-[72px] relative bg-navy min-h-[60vh] lg:min-h-[80vh] flex items-center justify-center overflow-hidden">
-      {/* Background image — McAllen-Hidalgo International Bridge aerial */}
-      <Image
-        src="/images/mce-bridge.jpg"
-        alt="Aerial view of the McAllen-Hidalgo International Bridge crossing the Rio Grande between Texas and Mexico"
-        fill
-        priority
-        className="object-cover object-[center_40%] sm:object-center"
-        sizes="100vw"
-        quality={85}
-      />
+      {/* Ken Burns zoom wrapper — overflow:hidden on parent section clips the zoom */}
+      <div className="absolute inset-0 animate-ken-burns">
+        <Image
+          src="/images/mce-bridge.jpg"
+          alt="Aerial view of the McAllen-Hidalgo International Bridge crossing the Rio Grande between Texas and Mexico"
+          fill
+          priority
+          className="object-cover object-[center_40%] sm:object-center"
+          sizes="100vw"
+          quality={85}
+        />
+      </div>
       {/* Dark navy overlay at 57% opacity */}
       <div className="absolute inset-0 bg-navy/[0.57]" />
 

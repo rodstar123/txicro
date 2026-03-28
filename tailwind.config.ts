@@ -39,6 +39,15 @@ const config: Config = {
         'section': '80px',
         'section-mobile': '48px',
       },
+      keyframes: {
+        'ken-burns': {
+          '0%, 100%': { transform: 'scale(1) translateX(0)' },
+          '50%': { transform: 'scale(1.1) translateX(2%)' },
+        },
+      },
+      animation: {
+        'ken-burns': 'ken-burns 20s ease-in-out infinite',
+      },
     },
   },
   plugins: [],
