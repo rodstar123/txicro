@@ -14,9 +14,9 @@ const config: Config = {
           light: '#162035',
         },
         gold: {
-          DEFAULT: '#C9A84C',
-          light: '#D4BA6A',
-          dark: '#A8893D',
+          DEFAULT: '#D4AF37',
+          light: '#E0C55E',
+          dark: '#B8962E',
         },
         slate: {
           DEFAULT: '#3D4F5F',
