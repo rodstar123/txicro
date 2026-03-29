@@ -224,7 +224,7 @@ export default function Header() {
               {/* Hamburger - mobile only */}
               <button
                 onClick={() => setMobileMenuOpen(true)}
-                className="lg:hidden text-gold hover:text-gold-light transition-colors p-1"
+                className="lg:hidden text-gold hover:text-gold-light transition-colors p-2.5 -mr-1 min-w-[44px] min-h-[44px] flex items-center justify-center"
                 aria-label={locale === 'es' ? 'Abrir menu' : 'Open menu'}
               >
                 <HamburgerIcon />

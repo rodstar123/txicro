@@ -85,7 +85,7 @@ export default function StickyCTA() {
               {/* CTA Button */}
               <Link
                 href={contactHref}
-                className="inline-flex items-center bg-gold text-navy font-heading font-semibold text-sm px-4 py-2 rounded-card hover:bg-gold-dark transition-colors whitespace-nowrap"
+                className="inline-flex items-center bg-gold text-navy font-heading font-semibold text-sm px-4 py-2.5 rounded-card hover:bg-gold-dark transition-colors whitespace-nowrap min-h-[44px]"
               >
                 {ctaLabel}
                 <ArrowRight />
@@ -94,7 +94,7 @@ export default function StickyCTA() {
               {/* Dismiss button */}
               <button
                 onClick={() => setDismissed(true)}
-                className="text-white/50 hover:text-white transition-colors p-1 shrink-0"
+                className="text-white/50 hover:text-white transition-colors p-2 shrink-0 min-w-[44px] min-h-[44px] flex items-center justify-center"
                 aria-label={locale === 'es' ? 'Cerrar' : 'Dismiss'}
               >
                 <CloseIcon />

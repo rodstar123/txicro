@@ -44,13 +44,13 @@ export default function WhyMcAllenPreview({ locale }: WhyMcAllenPreviewProps) {
           {t.sectionTitle}
         </h2>
 
-        <div className="grid grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
           {t.stats.map((stat, i) => (
             <div key={i} className="text-center sm:text-left">
-              <div className="font-heading text-2xl sm:text-3xl text-gold font-bold">
+              <div className="font-heading text-xl sm:text-2xl lg:text-3xl text-gold font-bold">
                 {stat.value}
               </div>
-              <p className="text-navy text-sm mt-1 leading-snug font-body">
+              <p className="text-navy text-xs sm:text-sm mt-1 leading-snug font-body">
                 {stat.label}
               </p>
             </div>

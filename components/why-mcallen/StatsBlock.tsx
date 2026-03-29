@@ -42,13 +42,13 @@ export default function StatsBlock({ locale }: WhyMcAllenStatsBlockProps) {
         <h2 className="font-heading text-3xl sm:text-4xl text-navy text-center mb-12">
           {t.title}
         </h2>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8">
           {t.stats.map((stat) => (
             <div key={stat.value} className="text-center">
-              <div className="font-heading text-3xl text-gold font-bold">
+              <div className="font-heading text-2xl sm:text-3xl text-gold font-bold">
                 {stat.value}
               </div>
-              <p className="text-slate text-sm mt-2 font-body leading-snug">
+              <p className="text-slate text-xs sm:text-sm mt-1.5 sm:mt-2 font-body leading-snug">
                 {stat.label}
               </p>
             </div>

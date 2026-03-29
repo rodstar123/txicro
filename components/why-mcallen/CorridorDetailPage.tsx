@@ -172,17 +172,17 @@ export default function CorridorDetailPage({ locale, corridor }: CorridorDetailP
               {t.comparisonHeading}
             </h2>
             <GoldDivider width="sm" className="mb-8 !mx-0" />
-            <div className="overflow-x-auto">
-              <table className="w-full max-w-4xl border-collapse">
+            <div className="overflow-x-auto -mx-4 sm:mx-0 px-4 sm:px-0">
+              <table className="w-full max-w-4xl border-collapse min-w-[500px]">
                 <thead>
                   <tr className="border-b-2 border-gold">
-                    <th className="font-heading text-left text-navy py-4 pr-6 text-lg">
+                    <th className="font-heading text-left text-navy py-3 sm:py-4 pr-4 sm:pr-6 text-sm sm:text-lg">
                       {t.categoryLabel}
                     </th>
-                    <th className="font-heading text-left text-navy py-4 pr-6 text-lg">
+                    <th className="font-heading text-left text-navy py-3 sm:py-4 pr-4 sm:pr-6 text-sm sm:text-lg">
                       {t.mcallenLabel}
                     </th>
-                    <th className="font-heading text-left text-navy py-4 text-lg">
+                    <th className="font-heading text-left text-navy py-3 sm:py-4 text-sm sm:text-lg">
                       {t.laredoLabel}
                     </th>
                   </tr>
@@ -193,13 +193,13 @@ export default function CorridorDetailPage({ locale, corridor }: CorridorDetailP
                       key={i}
                       className="border-b border-gray-200 last:border-b-0"
                     >
-                      <td className="font-body font-medium text-navy py-4 pr-6">
+                      <td className="font-body font-medium text-navy py-3 sm:py-4 pr-4 sm:pr-6 text-sm sm:text-base">
                         {row.category}
                       </td>
-                      <td className="font-body text-slate py-4 pr-6">
+                      <td className="font-body text-slate py-3 sm:py-4 pr-4 sm:pr-6 text-sm sm:text-base">
                         {row.mcallen}
                       </td>
-                      <td className="font-body text-slate py-4">
+                      <td className="font-body text-slate py-3 sm:py-4 text-sm sm:text-base">
                         {row.laredo}
                       </td>
                     </tr>

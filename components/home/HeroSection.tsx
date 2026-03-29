@@ -46,23 +46,23 @@ export default function HeroSection({ locale }: HeroSectionProps) {
       {/* Dark navy overlay at 58% opacity */}
       <div className="absolute inset-0 bg-navy/[0.58]" />
 
-      <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-32 lg:pt-[120px] pb-16 lg:pb-20">
-        <h1 className="font-heading text-4xl sm:text-5xl lg:text-6xl text-white font-bold text-balance leading-tight">
+      <div className="relative z-10 max-w-4xl mx-auto px-5 sm:px-6 lg:px-8 text-center pt-28 sm:pt-32 lg:pt-[120px] pb-14 sm:pb-16 lg:pb-20">
+        <h1 className="font-heading text-white font-bold text-balance leading-tight" style={{ fontSize: 'clamp(2rem, 8vw, 3.75rem)' }}>
           {t.headline}
         </h1>
 
         {/* Gold accent line */}
-        <div className="w-24 h-0.5 bg-gold mx-auto mt-8" />
+        <div className="w-24 h-0.5 bg-gold mx-auto mt-6 sm:mt-8" />
 
-        <p className="font-body text-lg sm:text-xl text-gray-300 max-w-3xl mx-auto mt-6 leading-relaxed">
+        <p className="font-body text-base sm:text-lg lg:text-xl text-gray-300 max-w-3xl mx-auto mt-5 sm:mt-6 leading-relaxed">
           {t.subheadline}
         </p>
 
-        <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
-          <Button href={t.ctaPrimaryHref} variant="primary" size="lg">
+        <div className="mt-7 sm:mt-8 flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
+          <Button href={t.ctaPrimaryHref} variant="primary" size="lg" className="w-full sm:w-auto">
             {t.ctaPrimary}
           </Button>
-          <Button href={t.ctaSecondaryHref} variant="secondary" size="lg">
+          <Button href={t.ctaSecondaryHref} variant="secondary" size="lg" className="w-full sm:w-auto">
             {t.ctaSecondary}
           </Button>
         </div>

@@ -95,10 +95,10 @@ export default function MobileMenu({ isOpen, onClose, items, currentPath, locale
         aria-label={locale === 'es' ? 'Menu de navegacion' : 'Navigation menu'}
       >
         {/* Close button */}
-        <div className="flex justify-end p-4">
+        <div className="flex justify-end p-3">
           <button
             onClick={onClose}
-            className="text-white hover:text-gold transition-colors p-2"
+            className="text-white hover:text-gold transition-colors p-2.5 min-w-[44px] min-h-[44px] flex items-center justify-center"
             aria-label={locale === 'es' ? 'Cerrar menu' : 'Close menu'}
           >
             <CloseIcon />
@@ -140,7 +140,7 @@ export default function MobileMenu({ isOpen, onClose, items, currentPath, locale
                               <Link
                                 href={child.href}
                                 onClick={onClose}
-                                className={`block py-2 text-base transition-colors ${
+                                className={`block py-2.5 text-base transition-colors ${
                                   isActive(child.href)
                                     ? 'text-gold'
                                     : 'text-white/80 hover:text-gold'
@@ -176,7 +176,7 @@ export default function MobileMenu({ isOpen, onClose, items, currentPath, locale
           <Link
             href={contactHref}
             onClick={onClose}
-            className="block w-full text-center bg-gold text-navy font-heading font-semibold py-3 px-6 rounded-card hover:bg-gold-dark transition-colors"
+            className="block w-full text-center bg-gold text-navy font-heading font-semibold py-3.5 px-6 rounded-card hover:bg-gold-dark transition-colors min-h-[48px]"
           >
             {ctaLabel}
           </Link>

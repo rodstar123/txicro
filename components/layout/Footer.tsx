@@ -99,12 +99,12 @@ export default function Footer() {
             <h3 className="font-heading text-lg font-semibold text-gold mb-4">
               {locale === 'es' ? 'Enlaces' : 'Quick Links'}
             </h3>
-            <ul className="space-y-2.5">
+            <ul className="space-y-3 sm:space-y-2.5">
               {quickLinks.map((link) => (
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-sm text-white/70 hover:text-gold transition-colors"
+                    className="text-sm text-white/70 hover:text-gold transition-colors inline-block py-0.5"
                   >
                     {link.label}
                   </Link>
@@ -118,12 +118,12 @@ export default function Footer() {
             <h3 className="font-heading text-lg font-semibold text-gold mb-4">
               {locale === 'es' ? 'Servicios' : 'Services'}
             </h3>
-            <ul className="space-y-2.5">
+            <ul className="space-y-3 sm:space-y-2.5">
               {nav.services.map((service) => (
                 <li key={service.href}>
                   <Link
                     href={service.href}
-                    className="text-sm text-white/70 hover:text-gold transition-colors"
+                    className="text-sm text-white/70 hover:text-gold transition-colors inline-block py-0.5"
                   >
                     {service.label}
                   </Link>
