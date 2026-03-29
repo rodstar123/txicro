@@ -21,7 +21,7 @@
   h4 { @apply text-xl sm:text-2xl font-medium; }
 
   ::selection {
-    background-color: #D4AF37;
+    background-color: #F0B924;
     color: #0A1628;
   }
 

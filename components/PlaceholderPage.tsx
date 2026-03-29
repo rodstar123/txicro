@@ -26,14 +26,14 @@ export default function PlaceholderPage({ title, subtitle, locale, breadcrumbs }
         {breadcrumbs && breadcrumbs.length > 0 && (
           <nav aria-label="Breadcrumb" className="mb-8">
             <ol className="flex items-center gap-2 text-sm text-[#3D4F5F]">
-              <li><Link href={homeHref} className="hover:text-[#D4AF37] transition-colors">{homeLabel}</Link></li>
+              <li><Link href={homeHref} className="hover:text-[#F0B924] transition-colors">{homeLabel}</Link></li>
               {breadcrumbs.map((crumb, i) => (
                 <li key={i} className="flex items-center gap-2">
-                  <span className="text-[#D4AF37]">/</span>
+                  <span className="text-[#F0B924]">/</span>
                   {i === breadcrumbs.length - 1 ? (
                     <span className="text-[#0A1628] font-medium">{crumb.label}</span>
                   ) : (
-                    <Link href={crumb.href} className="hover:text-[#D4AF37] transition-colors">{crumb.label}</Link>
+                    <Link href={crumb.href} className="hover:text-[#F0B924] transition-colors">{crumb.label}</Link>
                   )}
                 </li>
               ))}
@@ -51,14 +51,14 @@ export default function PlaceholderPage({ title, subtitle, locale, breadcrumbs }
         {subtitle && <p className="text-lg text-[#3D4F5F] text-center mb-6">{subtitle}</p>}
 
         {/* Gold divider */}
-        <div className="w-24 h-0.5 bg-[#D4AF37] mx-auto mb-8" />
+        <div className="w-24 h-0.5 bg-[#F0B924] mx-auto mb-8" />
 
         {/* Coming soon */}
         <p className="text-center text-[#3D4F5F] text-lg mb-8">{comingSoon}</p>
 
         {/* Back link */}
         <div className="text-center">
-          <Link href={homeHref} className="inline-flex items-center text-[#D4AF37] hover:text-[#0A1628] transition-colors font-medium">
+          <Link href={homeHref} className="inline-flex items-center text-[#F0B924] hover:text-[#0A1628] transition-colors font-medium">
             {backHome}
           </Link>
         </div>
