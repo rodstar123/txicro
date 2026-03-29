@@ -31,7 +31,7 @@ export default function PlaceholderPage({ title, subtitle, locale, breadcrumbs }
                 <li key={i} className="flex items-center gap-2">
                   <span className="text-[#F0B924]">/</span>
                   {i === breadcrumbs.length - 1 ? (
-                    <span className="text-[#0A1628] font-medium">{crumb.label}</span>
+                    <span className="text-[#122549] font-medium">{crumb.label}</span>
                   ) : (
                     <Link href={crumb.href} className="hover:text-[#F0B924] transition-colors">{crumb.label}</Link>
                   )}
@@ -47,7 +47,7 @@ export default function PlaceholderPage({ title, subtitle, locale, breadcrumbs }
         </div>
 
         {/* Title */}
-        <h1 className="text-3xl sm:text-4xl font-bold text-[#0A1628] text-center mb-3">{title}</h1>
+        <h1 className="text-3xl sm:text-4xl font-bold text-[#122549] text-center mb-3">{title}</h1>
         {subtitle && <p className="text-lg text-[#3D4F5F] text-center mb-6">{subtitle}</p>}
 
         {/* Gold divider */}
@@ -58,7 +58,7 @@ export default function PlaceholderPage({ title, subtitle, locale, breadcrumbs }
 
         {/* Back link */}
         <div className="text-center">
-          <Link href={homeHref} className="inline-flex items-center text-[#F0B924] hover:text-[#0A1628] transition-colors font-medium">
+          <Link href={homeHref} className="inline-flex items-center text-[#F0B924] hover:text-[#122549] transition-colors font-medium">
             {backHome}
           </Link>
         </div>

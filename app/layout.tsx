@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     apple: { url: '/apple-icon.png', sizes: '180x180', type: 'image/png' },
   },
   other: {
-    'theme-color': '#0A1628',
+    'theme-color': '#122549',
   },
 };
 
