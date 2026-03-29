@@ -1,15 +1,15 @@
-import { Cormorant_Garamond, Source_Sans_3 } from 'next/font/google';
+import { Libre_Baskerville, Work_Sans } from 'next/font/google';
 
-export const cormorantGaramond = Cormorant_Garamond({
+export const headingFont = Libre_Baskerville({
   subsets: ['latin'],
-  weight: ['400', '500', '600', '700'],
+  weight: ['400', '700'],
   variable: '--font-heading',
   display: 'swap',
 });
 
-export const sourceSans3 = Source_Sans_3({
+export const bodyFont = Work_Sans({
   subsets: ['latin'],
-  weight: ['300', '400', '600', '700'],
+  weight: ['400', '500'],
   variable: '--font-body',
   display: 'swap',
 });

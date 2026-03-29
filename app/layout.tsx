@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { cormorantGaramond, sourceSans3 } from '@/lib/fonts';
+import { headingFont, bodyFont } from '@/lib/fonts';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import StickyCTA from '@/components/layout/StickyCTA';
@@ -41,7 +41,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${cormorantGaramond.variable} ${sourceSans3.variable}`}>
+    <html lang="en" className={`${headingFont.variable} ${bodyFont.variable}`}>
       <body className="font-body text-slate bg-white antialiased">
         <JsonLd data={generateOrganizationSchema()} />
         <JsonLd data={generateWebSiteSchema()} />

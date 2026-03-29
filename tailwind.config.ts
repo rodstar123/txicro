@@ -28,6 +28,7 @@ const config: Config = {
       fontFamily: {
         heading: ['var(--font-heading)', 'Georgia', 'serif'],
         body: ['var(--font-body)', 'system-ui', 'sans-serif'],
+        sans: ['var(--font-body)', 'system-ui', 'sans-serif'],
       },
       maxWidth: {
         txicro: '1200px',
