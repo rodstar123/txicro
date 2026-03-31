@@ -34,8 +34,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     entries.push({
       url: `${baseUrl}${route}`,
       lastModified,
-      changeFrequency: route === '/' ? 'weekly' : 'monthly',
-      priority: route === '/' ? 1.0 : route.split('/').length <= 2 ? 0.8 : 0.6,
+      changeFrequency: route === '/' ? 'weekly' : route === '/insights' || route === '/events' ? 'weekly' : 'monthly',
+      priority: route === '/' ? 1.0 : route.split('/').length <= 2 ? 0.8 : 0.7,
       alternates: {
         languages: {
           en: `${baseUrl}${route}`,
@@ -46,8 +46,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     entries.push({
       url: `${baseUrl}${esRoute}`,
       lastModified,
-      changeFrequency: route === '/' ? 'weekly' : 'monthly',
-      priority: route === '/' ? 1.0 : route.split('/').length <= 2 ? 0.8 : 0.6,
+      changeFrequency: route === '/' ? 'weekly' : route === '/insights' || route === '/events' ? 'weekly' : 'monthly',
+      priority: route === '/' ? 1.0 : route.split('/').length <= 2 ? 0.8 : 0.7,
       alternates: {
         languages: {
           en: `${baseUrl}${route}`,
