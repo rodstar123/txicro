@@ -1,14 +1,14 @@
-import Link from 'next/link';
-import { generateBreadcrumbSchema, type BreadcrumbItem } from '@/lib/schema';
+import Link from "next/link";
+import { generateBreadcrumbSchema, type BreadcrumbItem } from "@/lib/schema";
 
 interface BreadcrumbsProps {
   items: { label: string; href: string }[];
-  locale: 'en' | 'es';
+  locale: "en" | "es";
 }
 
 export default function Breadcrumbs({ items, locale }: BreadcrumbsProps) {
-  const homeLabel = locale === 'es' ? 'Inicio' : 'Home';
-  const homeHref = locale === 'es' ? '/es' : '/';
+  const homeLabel = locale === "es" ? "Inicio" : "Home";
+  const homeHref = locale === "es" ? "/es" : "/";
 
   // Build schema items: Home first, then all provided items
   const schemaItems: BreadcrumbItem[] = [

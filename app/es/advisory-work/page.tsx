@@ -1,18 +1,18 @@
-import { generatePageMetadata } from '@/lib/metadata';
-import Breadcrumbs from '@/components/Breadcrumbs';
-import AdvisoryHero from '@/components/advisory/AdvisoryHero';
-import AdvisoryIntro from '@/components/advisory/AdvisoryIntro';
-import CaseStudies from '@/components/advisory/CaseStudies';
-import Testimonials from '@/components/advisory/Testimonials';
-import CTASection from '@/components/CTASection';
-import { Container } from '@/components/ui';
+import { generatePageMetadata } from "@/lib/metadata";
+import Breadcrumbs from "@/components/Breadcrumbs";
+import AdvisoryHero from "@/components/advisory/AdvisoryHero";
+import AdvisoryIntro from "@/components/advisory/AdvisoryIntro";
+import CaseStudies from "@/components/advisory/CaseStudies";
+import Testimonials from "@/components/advisory/Testimonials";
+import CTASection from "@/components/CTASection";
+import { Container } from "@/components/ui";
 
 export const metadata = generatePageMetadata({
-  title: 'Trabajo de Asesoría y Casos de Estudio | TXICRO',
+  title: "Trabajo de Asesoría y Casos de Estudio | TXICRO",
   description:
-    'Cómo TXICRO ha ayudado a organizaciones internacionales con la entrada al mercado de Texas, riesgos transfronterizos y delegaciones.',
-  path: '/es/advisory-work',
-  locale: 'es',
+    "Cómo TXICRO ha ayudado a organizaciones internacionales con la entrada al mercado de Texas, riesgos transfronterizos y delegaciones.",
+  path: "/es/advisory-work",
+  locale: "es",
 });
 
 export default function AdvisoryWorkPageES() {
@@ -22,7 +22,9 @@ export default function AdvisoryWorkPageES() {
       <div className="bg-white pt-8">
         <Container>
           <Breadcrumbs
-            items={[{ label: 'Trabajo de Asesor\u00eda', href: '/es/advisory-work' }]}
+            items={[
+              { label: "Trabajo de Asesor\u00eda", href: "/es/advisory-work" },
+            ]}
             locale="es"
           />
         </Container>

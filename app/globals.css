@@ -15,7 +15,12 @@
     word-wrap: break-word;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     @apply font-heading text-navy;
     overflow-wrap: break-word;
   }
@@ -38,7 +43,7 @@
   }
 
   ::selection {
-    background-color: #F0B924;
+    background-color: #f0b924;
     color: #122549;
   }
 

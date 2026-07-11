@@ -1,9 +1,11 @@
 # TXICRO.COM — SOBRE NOE RODRIGUEZ (ESPAÑOL)
+
 ## Ruta: /es/about
 
 ---
 
 ### META
+
 - **Title:** Sobre Noe Rodriguez | Fundador de TXICRO | Asesor Transfronterizo en McAllen
 - **Description:** Noe Rodriguez — nacido y criado en McAllen, TX. 60 años en el Valle del Río Grande. Empresario, asesor de comercio transfronterizo y fundador de TXICRO.
 - **OG Title:** Noe Rodriguez — El Hombre Detrás de TXICRO

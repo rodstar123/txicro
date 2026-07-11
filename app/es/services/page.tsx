@@ -1,21 +1,21 @@
-import { generatePageMetadata } from '@/lib/metadata';
-import Breadcrumbs from '@/components/Breadcrumbs';
-import ServicesHero from '@/components/services/ServicesHero';
-import ServiceIntro from '@/components/services/ServiceIntro';
-import ServiceCards from '@/components/services/ServiceCards';
-import EngagementTiers from '@/components/services/EngagementTiers';
-import AudienceSegments from '@/components/services/AudienceSegments';
-import ServiceProcess from '@/components/services/ServiceProcess';
-import ServiceFAQ from '@/components/services/ServiceFAQ';
-import CTASection from '@/components/CTASection';
-import { Container } from '@/components/ui';
+import { generatePageMetadata } from "@/lib/metadata";
+import Breadcrumbs from "@/components/Breadcrumbs";
+import ServicesHero from "@/components/services/ServicesHero";
+import ServiceIntro from "@/components/services/ServiceIntro";
+import ServiceCards from "@/components/services/ServiceCards";
+import EngagementTiers from "@/components/services/EngagementTiers";
+import AudienceSegments from "@/components/services/AudienceSegments";
+import ServiceProcess from "@/components/services/ServiceProcess";
+import ServiceFAQ from "@/components/services/ServiceFAQ";
+import CTASection from "@/components/CTASection";
+import { Container } from "@/components/ui";
 
 export const metadata = generatePageMetadata({
-  title: 'Servicios de Asesoría | TXICRO | McAllen, TX',
+  title: "Servicios de Asesoría | TXICRO | McAllen, TX",
   description:
-    'Asesoría para entrada al mercado, evaluación de riesgos transfronterizos, mapeo de actores clave, relaciones comerciales e informes en Texas.',
-  path: '/es/services',
-  locale: 'es',
+    "Asesoría para entrada al mercado, evaluación de riesgos transfronterizos, mapeo de actores clave, relaciones comerciales e informes en Texas.",
+  path: "/es/services",
+  locale: "es",
 });
 
 export default function ServicesPageES() {
@@ -25,7 +25,7 @@ export default function ServicesPageES() {
       <div className="bg-white pt-8">
         <Container>
           <Breadcrumbs
-            items={[{ label: 'Servicios', href: '/es/services' }]}
+            items={[{ label: "Servicios", href: "/es/services" }]}
             locale="es"
           />
         </Container>

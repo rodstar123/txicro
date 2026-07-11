@@ -3,9 +3,5 @@ export default function SpanishLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return (
-    <div lang="es">
-      {children}
-    </div>
-  );
+  return <div lang="es">{children}</div>;
 }

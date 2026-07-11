@@ -1,17 +1,19 @@
-import { Container, GoldDivider } from '@/components/ui';
+import { Container, GoldDivider } from "@/components/ui";
 
 interface EventsHeroProps {
-  locale: 'en' | 'es';
+  locale: "en" | "es";
 }
 
 const content = {
   en: {
-    headline: 'Events & Speaking',
-    subheadline: 'TXICRO is active in the cross-border commerce community \u2014 participating in trade events, hosting delegations, and sharing insights on international business in the Rio Grande Valley.',
+    headline: "Events & Speaking",
+    subheadline:
+      "TXICRO is active in the cross-border commerce community \u2014 participating in trade events, hosting delegations, and sharing insights on international business in the Rio Grande Valley.",
   },
   es: {
-    headline: 'Eventos y Conferencias',
-    subheadline: 'TXICRO es activo en la comunidad de comercio transfronterizo \u2014 participando en eventos comerciales, recibiendo delegaciones y compartiendo perspectivas sobre negocios internacionales en el Valle del R\u00edo Grande.',
+    headline: "Eventos y Conferencias",
+    subheadline:
+      "TXICRO es activo en la comunidad de comercio transfronterizo \u2014 participando en eventos comerciales, recibiendo delegaciones y compartiendo perspectivas sobre negocios internacionales en el Valle del R\u00edo Grande.",
   },
 };
 

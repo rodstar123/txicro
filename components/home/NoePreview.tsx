@@ -1,29 +1,29 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import { Container } from '@/components/ui';
+import Image from "next/image";
+import Link from "next/link";
+import { Container } from "@/components/ui";
 
 interface NoePreviewProps {
-  locale: 'en' | 'es';
+  locale: "en" | "es";
 }
 
 const content = {
   en: {
-    sectionTitle: 'Led by Noe Rodriguez',
+    sectionTitle: "Led by Noe Rodriguez",
     paragraph1:
-      'Noe Rodriguez has spent his entire life in the Rio Grande Valley — building businesses, forging cross-border relationships, and developing a deep understanding of what it takes for international organizations to succeed in Texas.',
+      "Noe Rodriguez has spent his entire life in the Rio Grande Valley — building businesses, forging cross-border relationships, and developing a deep understanding of what it takes for international organizations to succeed in Texas.",
     paragraph2:
-      'As the founder of TXICRO and General Manager of Pioneer Zeal Enterprises, Noe brings a practitioner\u2019s perspective to advisory work. He is not a theorist. He is an entrepreneur who has navigated the complexities of US-Mexico commerce firsthand, and who now dedicates his expertise to helping others do the same.',
-    linkText: 'Learn more about Noe',
-    linkHref: '/about',
+      "As the founder of TXICRO and General Manager of Pioneer Zeal Enterprises, Noe brings a practitioner\u2019s perspective to advisory work. He is not a theorist. He is an entrepreneur who has navigated the complexities of US-Mexico commerce firsthand, and who now dedicates his expertise to helping others do the same.",
+    linkText: "Learn more about Noe",
+    linkHref: "/about",
   },
   es: {
-    sectionTitle: 'Liderado por Noe Rodriguez',
+    sectionTitle: "Liderado por Noe Rodriguez",
     paragraph1:
-      'Noe Rodriguez ha dedicado toda su vida al Valle del Río Grande — construyendo negocios, forjando relaciones transfronterizas y desarrollando un profundo entendimiento de lo que se necesita para que las organizaciones internacionales tengan éxito en Texas.',
+      "Noe Rodriguez ha dedicado toda su vida al Valle del Río Grande — construyendo negocios, forjando relaciones transfronterizas y desarrollando un profundo entendimiento de lo que se necesita para que las organizaciones internacionales tengan éxito en Texas.",
     paragraph2:
-      'Como fundador de TXICRO y Director General de Pioneer Zeal Enterprises, Noe aporta la perspectiva de un profesional con experiencia práctica. No es un teórico. Es un empresario que ha navegado las complejidades del comercio entre Estados Unidos y México de primera mano, y que ahora dedica su experiencia a ayudar a otros a hacer lo mismo.',
-    linkText: 'Conozca más sobre Noe',
-    linkHref: '/es/about',
+      "Como fundador de TXICRO y Director General de Pioneer Zeal Enterprises, Noe aporta la perspectiva de un profesional con experiencia práctica. No es un teórico. Es un empresario que ha navegado las complejidades del comercio entre Estados Unidos y México de primera mano, y que ahora dedica su experiencia a ayudar a otros a hacer lo mismo.",
+    linkText: "Conozca más sobre Noe",
+    linkHref: "/es/about",
   },
 };
 
@@ -64,7 +64,9 @@ export default function NoePreview({ locale }: NoePreviewProps) {
               className="inline-flex items-center text-gold font-body font-semibold hover:text-gold-dark transition-colors"
             >
               {t.linkText}
-              <span className="ml-2" aria-hidden="true">&rarr;</span>
+              <span className="ml-2" aria-hidden="true">
+                &rarr;
+              </span>
             </Link>
           </div>
         </div>

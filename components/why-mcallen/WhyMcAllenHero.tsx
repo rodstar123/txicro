@@ -1,19 +1,19 @@
-import { GoldDivider } from '@/components/ui';
+import { GoldDivider } from "@/components/ui";
 
 interface WhyMcAllenHeroProps {
-  locale: 'en' | 'es';
+  locale: "en" | "es";
 }
 
 const content = {
   en: {
-    headline: 'Why McAllen',
+    headline: "Why McAllen",
     subheadline:
-      'At the crossroads of the United States and Latin America, McAllen, Texas offers what few cities can \u2014 strategic position, bilingual infrastructure, and a cost structure that makes growth sustainable.',
+      "At the crossroads of the United States and Latin America, McAllen, Texas offers what few cities can \u2014 strategic position, bilingual infrastructure, and a cost structure that makes growth sustainable.",
   },
   es: {
-    headline: 'Por Qu\u00e9 McAllen',
+    headline: "Por Qu\u00e9 McAllen",
     subheadline:
-      'En la encrucijada de los Estados Unidos y Am\u00e9rica Latina, McAllen, Texas ofrece lo que pocas ciudades pueden \u2014 posici\u00f3n estrat\u00e9gica, infraestructura biling\u00fce y una estructura de costos que hace sostenible el crecimiento.',
+      "En la encrucijada de los Estados Unidos y Am\u00e9rica Latina, McAllen, Texas ofrece lo que pocas ciudades pueden \u2014 posici\u00f3n estrat\u00e9gica, infraestructura biling\u00fce y una estructura de costos que hace sostenible el crecimiento.",
   },
 };
 
@@ -27,7 +27,7 @@ export default function WhyMcAllenHero({ locale }: WhyMcAllenHeroProps) {
         className="absolute inset-0 pointer-events-none"
         style={{
           background:
-            'radial-gradient(ellipse at center, rgba(22,32,53,0.6) 0%, rgba(10,22,40,1) 70%)',
+            "radial-gradient(ellipse at center, rgba(22,32,53,0.6) 0%, rgba(10,22,40,1) 70%)",
         }}
       />
 

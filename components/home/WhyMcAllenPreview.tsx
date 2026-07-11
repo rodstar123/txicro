@@ -1,36 +1,62 @@
-import Link from 'next/link';
-import { Container } from '@/components/ui';
+import Link from "next/link";
+import { Container } from "@/components/ui";
 
 interface WhyMcAllenPreviewProps {
-  locale: 'en' | 'es';
+  locale: "en" | "es";
 }
 
 const content = {
   en: {
-    sectionTitle: 'McAllen: The Strategic Gateway',
+    sectionTitle: "McAllen: The Strategic Gateway",
     stats: [
-      { value: '2.5 hrs', label: 'from Monterrey, Mexico\u2019s industrial capital' },
-      { value: 'FTZ #12', label: 'McAllen Foreign Trade Zone — one of the most active in the US' },
-      { value: '$200B+', label: 'in annual US-Mexico border trade through the RGV' },
-      { value: '0%', label: 'state income tax in Texas' },
-      { value: 'MFE', label: 'McAllen-Miller International Airport with direct connections' },
-      { value: '1.4M', label: 'metro population — McAllen-Edinburg-Mission' },
+      {
+        value: "2.5 hrs",
+        label: "from Monterrey, Mexico\u2019s industrial capital",
+      },
+      {
+        value: "FTZ #12",
+        label: "McAllen Foreign Trade Zone — one of the most active in the US",
+      },
+      {
+        value: "$200B+",
+        label: "in annual US-Mexico border trade through the RGV",
+      },
+      { value: "0%", label: "state income tax in Texas" },
+      {
+        value: "MFE",
+        label: "McAllen-Miller International Airport with direct connections",
+      },
+      { value: "1.4M", label: "metro population — McAllen-Edinburg-Mission" },
     ],
-    linkText: 'Discover why McAllen is the right gateway',
-    linkHref: '/why-mcallen',
+    linkText: "Discover why McAllen is the right gateway",
+    linkHref: "/why-mcallen",
   },
   es: {
-    sectionTitle: 'McAllen: El Portal Estratégico',
+    sectionTitle: "McAllen: El Portal Estratégico",
     stats: [
-      { value: '2.5 hrs', label: 'de Monterrey, capital industrial de México' },
-      { value: 'ZCE #12', label: 'Zona de Comercio Exterior de McAllen — una de las más activas de EE.UU.' },
-      { value: '$200B+', label: 'en comercio anual entre EE.UU. y México por el RGV' },
-      { value: '0%', label: 'impuesto estatal sobre la renta en Texas' },
-      { value: 'MFE', label: 'Aeropuerto Internacional McAllen-Miller con conexiones directas' },
-      { value: '1.4M', label: 'población metropolitana — McAllen-Edinburg-Mission' },
+      { value: "2.5 hrs", label: "de Monterrey, capital industrial de México" },
+      {
+        value: "ZCE #12",
+        label:
+          "Zona de Comercio Exterior de McAllen — una de las más activas de EE.UU.",
+      },
+      {
+        value: "$200B+",
+        label: "en comercio anual entre EE.UU. y México por el RGV",
+      },
+      { value: "0%", label: "impuesto estatal sobre la renta en Texas" },
+      {
+        value: "MFE",
+        label:
+          "Aeropuerto Internacional McAllen-Miller con conexiones directas",
+      },
+      {
+        value: "1.4M",
+        label: "población metropolitana — McAllen-Edinburg-Mission",
+      },
     ],
-    linkText: 'Descubra por qué McAllen es el portal ideal',
-    linkHref: '/es/why-mcallen',
+    linkText: "Descubra por qué McAllen es el portal ideal",
+    linkHref: "/es/why-mcallen",
   },
 };
 
@@ -63,7 +89,9 @@ export default function WhyMcAllenPreview({ locale }: WhyMcAllenPreviewProps) {
             className="inline-flex items-center text-gold font-body font-semibold hover:text-gold-dark transition-colors"
           >
             {t.linkText}
-            <span className="ml-2" aria-hidden="true">&rarr;</span>
+            <span className="ml-2" aria-hidden="true">
+              &rarr;
+            </span>
           </Link>
         </div>
       </Container>

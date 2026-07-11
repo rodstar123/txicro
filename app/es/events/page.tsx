@@ -1,17 +1,18 @@
-import { generatePageMetadata } from '@/lib/metadata';
-import { Container } from '@/components/ui';
-import Breadcrumbs from '@/components/Breadcrumbs';
-import CTASection from '@/components/CTASection';
-import EventsHero from '@/components/events/EventsHero';
-import UpcomingEvents from '@/components/events/UpcomingEvents';
-import SpeakingTopics from '@/components/events/SpeakingTopics';
-import PastEvents from '@/components/events/PastEvents';
+import { generatePageMetadata } from "@/lib/metadata";
+import { Container } from "@/components/ui";
+import Breadcrumbs from "@/components/Breadcrumbs";
+import CTASection from "@/components/CTASection";
+import EventsHero from "@/components/events/EventsHero";
+import UpcomingEvents from "@/components/events/UpcomingEvents";
+import SpeakingTopics from "@/components/events/SpeakingTopics";
+import PastEvents from "@/components/events/PastEvents";
 
 export const metadata = generatePageMetadata({
-  title: 'Eventos y Conferencias | TXICRO | McAllen, TX',
-  description: 'TXICRO participa en eventos comerciales, misiones de negocios y encuentros de comercio transfronterizo en el Valle del Río Grande.',
-  path: '/es/events',
-  locale: 'es',
+  title: "Eventos y Conferencias | TXICRO | McAllen, TX",
+  description:
+    "TXICRO participa en eventos comerciales, misiones de negocios y encuentros de comercio transfronterizo en el Valle del Río Grande.",
+  path: "/es/events",
+  locale: "es",
 });
 
 export default function EventsPageES() {
@@ -22,7 +23,7 @@ export default function EventsPageES() {
       <div className="bg-white pt-8">
         <Container>
           <Breadcrumbs
-            items={[{ label: 'Eventos', href: '/es/events' }]}
+            items={[{ label: "Eventos", href: "/es/events" }]}
             locale="es"
           />
         </Container>

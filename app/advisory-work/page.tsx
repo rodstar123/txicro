@@ -1,18 +1,18 @@
-import { generatePageMetadata } from '@/lib/metadata';
-import Breadcrumbs from '@/components/Breadcrumbs';
-import AdvisoryHero from '@/components/advisory/AdvisoryHero';
-import AdvisoryIntro from '@/components/advisory/AdvisoryIntro';
-import CaseStudies from '@/components/advisory/CaseStudies';
-import Testimonials from '@/components/advisory/Testimonials';
-import CTASection from '@/components/CTASection';
-import { Container } from '@/components/ui';
+import { generatePageMetadata } from "@/lib/metadata";
+import Breadcrumbs from "@/components/Breadcrumbs";
+import AdvisoryHero from "@/components/advisory/AdvisoryHero";
+import AdvisoryIntro from "@/components/advisory/AdvisoryIntro";
+import CaseStudies from "@/components/advisory/CaseStudies";
+import Testimonials from "@/components/advisory/Testimonials";
+import CTASection from "@/components/CTASection";
+import { Container } from "@/components/ui";
 
 export const metadata = generatePageMetadata({
-  title: 'Advisory Work & Case Studies | TXICRO',
+  title: "Advisory Work & Case Studies | TXICRO",
   description:
-    'How TXICRO has helped international organizations navigate Texas market entry, cross-border risk, and trade delegation coordination in the RGV.',
-  path: '/advisory-work',
-  locale: 'en',
+    "How TXICRO has helped international organizations navigate Texas market entry, cross-border risk, and trade delegation coordination in the RGV.",
+  path: "/advisory-work",
+  locale: "en",
 });
 
 export default function AdvisoryWorkPage() {
@@ -22,7 +22,7 @@ export default function AdvisoryWorkPage() {
       <div className="bg-white pt-8">
         <Container>
           <Breadcrumbs
-            items={[{ label: 'Advisory Work', href: '/advisory-work' }]}
+            items={[{ label: "Advisory Work", href: "/advisory-work" }]}
             locale="en"
           />
         </Container>

@@ -1,19 +1,19 @@
-import { Container, GoldDivider } from '@/components/ui';
+import { Container, GoldDivider } from "@/components/ui";
 
 interface ServicesHeroProps {
-  locale: 'en' | 'es';
+  locale: "en" | "es";
 }
 
 const content = {
   en: {
-    headline: 'Advisory Services',
+    headline: "Advisory Services",
     subheadline:
-      'Fee-based advisory, assessment, and coordination for international organizations navigating the Texas market. We provide the clarity you need before commitments are made.',
+      "Fee-based advisory, assessment, and coordination for international organizations navigating the Texas market. We provide the clarity you need before commitments are made.",
   },
   es: {
-    headline: 'Servicios de Asesor\u00eda',
+    headline: "Servicios de Asesor\u00eda",
     subheadline:
-      'Asesor\u00eda, evaluaci\u00f3n y coordinaci\u00f3n basada en honorarios para organizaciones internacionales que navegan el mercado texano. Proporcionamos la claridad que necesita antes de asumir compromisos.',
+      "Asesor\u00eda, evaluaci\u00f3n y coordinaci\u00f3n basada en honorarios para organizaciones internacionales que navegan el mercado texano. Proporcionamos la claridad que necesita antes de asumir compromisos.",
   },
 };
 

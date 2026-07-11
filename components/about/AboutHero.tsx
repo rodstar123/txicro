@@ -1,22 +1,22 @@
-import Image from 'next/image';
-import { Container, GoldDivider } from '@/components/ui';
+import Image from "next/image";
+import { Container, GoldDivider } from "@/components/ui";
 
 interface AboutHeroProps {
-  locale: 'en' | 'es';
+  locale: "en" | "es";
 }
 
 const content = {
   en: {
-    headline: 'Noe Rodriguez',
+    headline: "Noe Rodriguez",
     subtitle:
-      'Founder & Principal Advisor, Texas International Commerce & Relations Office',
-    alt: 'Noe Rodriguez — Founder and Principal Advisor of TXICRO',
+      "Founder & Principal Advisor, Texas International Commerce & Relations Office",
+    alt: "Noe Rodriguez — Founder and Principal Advisor of TXICRO",
   },
   es: {
-    headline: 'Noe Rodriguez',
+    headline: "Noe Rodriguez",
     subtitle:
-      'Fundador y Asesor Principal, Texas International Commerce & Relations Office',
-    alt: 'Noe Rodriguez — Fundador y Asesor Principal de TXICRO',
+      "Fundador y Asesor Principal, Texas International Commerce & Relations Office",
+    alt: "Noe Rodriguez — Fundador y Asesor Principal de TXICRO",
   },
 };
 

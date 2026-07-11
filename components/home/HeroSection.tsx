@@ -1,28 +1,30 @@
-import Image from 'next/image';
-import { Button } from '@/components/ui';
+import Image from "next/image";
+import { Button } from "@/components/ui";
 
 interface HeroSectionProps {
-  locale: 'en' | 'es';
+  locale: "en" | "es";
 }
 
 const content = {
   en: {
-    headline: 'Where the Border Becomes a Bridge.',
-    subheadline: 'TXICRO — An Office for International Commerce and Relations. McAllen, Texas.',
-    ctaPrimary: 'Request an Assessment',
-    ctaSecondary: 'Download the McAllen Gateway Guide',
-    founderLine: 'Noe Rodriguez — Founder & Principal Advisor',
-    ctaPrimaryHref: '/contact',
-    ctaSecondaryHref: '#',
+    headline: "Where the Border Becomes a Bridge.",
+    subheadline:
+      "TXICRO — An Office for International Commerce and Relations. McAllen, Texas.",
+    ctaPrimary: "Request an Assessment",
+    ctaSecondary: "Download the McAllen Gateway Guide",
+    founderLine: "Noe Rodriguez — Founder & Principal Advisor",
+    ctaPrimaryHref: "/contact",
+    ctaSecondaryHref: "#",
   },
   es: {
-    headline: 'Donde la Frontera Se Convierte en Puente.',
-    subheadline: 'TXICRO — Una Oficina de Comercio Internacional y Relaciones. McAllen, Texas.',
-    ctaPrimary: 'Solicitar una Evaluación',
-    ctaSecondary: 'Descargue la Guía de McAllen como Portal de Comercio',
-    founderLine: 'Noe Rodriguez — Fundador y Asesor Principal',
-    ctaPrimaryHref: '/es/contact',
-    ctaSecondaryHref: '#',
+    headline: "Donde la Frontera Se Convierte en Puente.",
+    subheadline:
+      "TXICRO — Una Oficina de Comercio Internacional y Relaciones. McAllen, Texas.",
+    ctaPrimary: "Solicitar una Evaluación",
+    ctaSecondary: "Descargue la Guía de McAllen como Portal de Comercio",
+    founderLine: "Noe Rodriguez — Fundador y Asesor Principal",
+    ctaPrimaryHref: "/es/contact",
+    ctaSecondaryHref: "#",
   },
 };
 
@@ -47,7 +49,10 @@ export default function HeroSection({ locale }: HeroSectionProps) {
       <div className="absolute inset-0 bg-navy/[0.58]" />
 
       <div className="relative z-10 max-w-4xl mx-auto px-5 sm:px-6 lg:px-8 text-center pt-28 sm:pt-32 lg:pt-[120px] pb-14 sm:pb-16 lg:pb-20">
-        <h1 className="font-heading text-white font-bold text-balance leading-tight" style={{ fontSize: 'clamp(2rem, 8vw, 3.75rem)' }}>
+        <h1
+          className="font-heading text-white font-bold text-balance leading-tight"
+          style={{ fontSize: "clamp(2rem, 8vw, 3.75rem)" }}
+        >
           {t.headline}
         </h1>
 
@@ -59,10 +64,20 @@ export default function HeroSection({ locale }: HeroSectionProps) {
         </p>
 
         <div className="mt-7 sm:mt-8 flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
-          <Button href={t.ctaPrimaryHref} variant="primary" size="lg" className="w-full sm:w-auto">
+          <Button
+            href={t.ctaPrimaryHref}
+            variant="primary"
+            size="lg"
+            className="w-full sm:w-auto"
+          >
             {t.ctaPrimary}
           </Button>
-          <Button href={t.ctaSecondaryHref} variant="secondary" size="lg" className="w-full sm:w-auto">
+          <Button
+            href={t.ctaSecondaryHref}
+            variant="secondary"
+            size="lg"
+            className="w-full sm:w-auto"
+          >
             {t.ctaSecondary}
           </Button>
         </div>

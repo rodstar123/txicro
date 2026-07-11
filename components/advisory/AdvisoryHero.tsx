@@ -1,19 +1,19 @@
-import { Container, GoldDivider } from '@/components/ui';
+import { Container, GoldDivider } from "@/components/ui";
 
 interface AdvisoryHeroProps {
-  locale: 'en' | 'es';
+  locale: "en" | "es";
 }
 
 const content = {
   en: {
-    headline: 'Advisory Work',
+    headline: "Advisory Work",
     subheadline:
-      'A selection of representative engagements illustrating how TXICRO supports international organizations in navigating the Texas market with clarity and confidence.',
+      "A selection of representative engagements illustrating how TXICRO supports international organizations in navigating the Texas market with clarity and confidence.",
   },
   es: {
-    headline: 'Trabajo de Asesor\u00eda',
+    headline: "Trabajo de Asesor\u00eda",
     subheadline:
-      'Una selecci\u00f3n de compromisos representativos que ilustran c\u00f3mo TXICRO apoya a organizaciones internacionales en la navegaci\u00f3n del mercado texano con claridad y confianza.',
+      "Una selecci\u00f3n de compromisos representativos que ilustran c\u00f3mo TXICRO apoya a organizaciones internacionales en la navegaci\u00f3n del mercado texano con claridad y confianza.",
   },
 };
 

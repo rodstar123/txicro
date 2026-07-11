@@ -1,13 +1,16 @@
 # TXICRO.COM — EVENTS & SPEAKING PAGE (ENGLISH)
+
 ## Route: /events
 
 ---
 
 ### META
+
 - **Title:** Events & Speaking | TXICRO | Trade Events & Cross-Border Commerce | McAllen, TX
 - **Description:** TXICRO participates in and supports trade events, business missions, and cross-border commerce gatherings in the Rio Grande Valley. Speaking, coordination, and advisory.
 
 ### HERO
+
 **Headline:** Events & Speaking
 **Subheadline:** TXICRO is active in the cross-border commerce community — participating in trade events, hosting delegations, and sharing insights on international business in the Rio Grande Valley.
 
@@ -15,7 +18,7 @@
 
 (Card layout — populate as events are scheduled)
 
-*No upcoming events currently listed. Check back for announcements about trade missions, speaking engagements, and community events.*
+_No upcoming events currently listed. Check back for announcements about trade missions, speaking engagements, and community events._
 
 **Note for Diego:** Build this as a card grid component that can be populated from a simple data file or CMS. Each card shows: date, title, location, description, and optional registration link.
 
@@ -41,7 +44,7 @@ Noe Rodriguez is available for speaking engagements, panel participation, and tr
 
 (Placeholder section — populate as events occur)
 
-*As TXICRO participates in events throughout 2026, this section will feature recaps, photos, and key takeaways from trade missions, speaking engagements, and community gatherings.*
+_As TXICRO participates in events throughout 2026, this section will feature recaps, photos, and key takeaways from trade missions, speaking engagements, and community gatherings._
 
 ### PHOTO GALLERY
 
@@ -57,18 +60,22 @@ Whether you are organizing a trade mission, a chamber event, a university lectur
 **CTA Secondary:** View Our Services →
 
 ---
+
 ---
 
 # TXICRO.COM — CONTACT / REQUEST ASSESSMENT PAGE (ENGLISH)
+
 ## Route: /contact
 
 ---
 
 ### META
+
 - **Title:** Contact TXICRO | Request an Assessment | International Trade Advisory | McAllen, TX
 - **Description:** Request a confidential assessment from TXICRO. International market entry, cross-border risk, stakeholder mapping, and advisory services in McAllen, Texas.
 
 ### HERO
+
 **Headline:** Begin with Clarity
 **Subheadline:** An initial assessment provides a structured understanding of opportunities, risks, and next steps — before major decisions are made.
 
@@ -81,6 +88,7 @@ All communications are exploratory, intended to confirm alignment, scope, and ne
 ### ASSESSMENT REQUEST FORM
 
 (Fields as specified in build spec)
+
 - Full Name (required)
 - Organization (required)
 - Role / Title
@@ -115,7 +123,9 @@ Download our free McAllen Gateway Guide — a comprehensive introduction to cros
 **Meetings:** By appointment only
 
 ### MAP
+
 Google Maps embed showing office location at 315 W Nolana Ave, McAllen, TX
 
 ### FOOTER NOTE
+
 Reviewed personally. If aligned, we respond within 1 business day with next steps.

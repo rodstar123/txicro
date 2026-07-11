@@ -1,18 +1,18 @@
-import { generatePageMetadata } from '@/lib/metadata';
-import Breadcrumbs from '@/components/Breadcrumbs';
-import AboutHero from '@/components/about/AboutHero';
-import Biography from '@/components/about/Biography';
-import Philosophy from '@/components/about/Philosophy';
-import CommunityRoots from '@/components/about/CommunityRoots';
-import CTASection from '@/components/CTASection';
-import { Container } from '@/components/ui';
+import { generatePageMetadata } from "@/lib/metadata";
+import Breadcrumbs from "@/components/Breadcrumbs";
+import AboutHero from "@/components/about/AboutHero";
+import Biography from "@/components/about/Biography";
+import Philosophy from "@/components/about/Philosophy";
+import CommunityRoots from "@/components/about/CommunityRoots";
+import CTASection from "@/components/CTASection";
+import { Container } from "@/components/ui";
 
 export const metadata = generatePageMetadata({
-  title: 'Sobre Noe Rodriguez | Fundador y Asesor | TXICRO',
+  title: "Sobre Noe Rodriguez | Fundador y Asesor | TXICRO",
   description:
-    'Noe Rodriguez — nacido y criado en McAllen, TX. Toda una vida en el Valle del R\u00edo Grande. Empresario, asesor de comercio transfronterizo y fundador de TXICRO.',
-  path: '/es/about',
-  locale: 'es',
+    "Noe Rodriguez — nacido y criado en McAllen, TX. Toda una vida en el Valle del R\u00edo Grande. Empresario, asesor de comercio transfronterizo y fundador de TXICRO.",
+  path: "/es/about",
+  locale: "es",
 });
 
 export default function AboutPageES() {
@@ -22,7 +22,7 @@ export default function AboutPageES() {
       <div className="bg-white pt-8">
         <Container>
           <Breadcrumbs
-            items={[{ label: 'Sobre Nosotros', href: '/es/about' }]}
+            items={[{ label: "Sobre Nosotros", href: "/es/about" }]}
             locale="es"
           />
         </Container>

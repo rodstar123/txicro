@@ -1,9 +1,9 @@
-'use client';
+"use client";
 
-import Link from 'next/link';
-import Image from 'next/image';
-import { usePathname } from 'next/navigation';
-import { getNavigation } from '@/lib/navigation';
+import Link from "next/link";
+import Image from "next/image";
+import { usePathname } from "next/navigation";
+import { getNavigation } from "@/lib/navigation";
 
 function LinkedInIcon() {
   return (
@@ -15,7 +15,14 @@ function LinkedInIcon() {
 
 function EmailIcon() {
   return (
-    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+    <svg
+      width="18"
+      height="18"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+    >
       <rect x="2" y="4" width="20" height="16" rx="2" />
       <path d="M22 4L12 13L2 4" />
     </svg>
@@ -24,7 +31,14 @@ function EmailIcon() {
 
 function LocationIcon() {
   return (
-    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+    <svg
+      width="18"
+      height="18"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+    >
       <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" />
       <circle cx="12" cy="9" r="2.5" />
     </svg>
@@ -33,7 +47,14 @@ function LocationIcon() {
 
 function ClockIcon() {
   return (
-    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+    <svg
+      width="18"
+      height="18"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+    >
       <circle cx="12" cy="12" r="10" />
       <path d="M12 6V12L16 14" />
     </svg>
@@ -42,34 +63,47 @@ function ClockIcon() {
 
 export default function Footer() {
   const pathname = usePathname();
-  const locale: 'en' | 'es' = pathname.startsWith('/es') ? 'es' : 'en';
+  const locale: "en" | "es" = pathname.startsWith("/es") ? "es" : "en";
   const nav = getNavigation(locale);
-  const prefix = locale === 'es' ? '/es' : '';
+  const prefix = locale === "es" ? "/es" : "";
 
   const quickLinks = [
-    { label: locale === 'es' ? 'Inicio' : 'Home', href: `${prefix}/` },
-    { label: locale === 'es' ? 'Nosotros' : 'About', href: `${prefix}/about` },
-    { label: locale === 'es' ? 'Casos de Estudio' : 'Advisory Work', href: `${prefix}/advisory-work` },
-    { label: locale === 'es' ? 'Articulos' : 'Insights', href: `${prefix}/insights` },
-    { label: locale === 'es' ? 'Eventos' : 'Events', href: `${prefix}/events` },
-    { label: locale === 'es' ? 'Contacto' : 'Contact', href: `${prefix}/contact` },
+    { label: locale === "es" ? "Inicio" : "Home", href: `${prefix}/` },
+    { label: locale === "es" ? "Nosotros" : "About", href: `${prefix}/about` },
+    {
+      label: locale === "es" ? "Casos de Estudio" : "Advisory Work",
+      href: `${prefix}/advisory-work`,
+    },
+    {
+      label: locale === "es" ? "Articulos" : "Insights",
+      href: `${prefix}/insights`,
+    },
+    { label: locale === "es" ? "Eventos" : "Events", href: `${prefix}/events` },
+    {
+      label: locale === "es" ? "Contacto" : "Contact",
+      href: `${prefix}/contact`,
+    },
   ];
 
-  const tagline = locale === 'es'
-    ? 'Una oficina neutral de asesoria y coordinacion que apoya a empresas internacionales, inversionistas e instituciones.'
-    : 'A neutral advisory and coordination office supporting international businesses, investors, and institutions.';
+  const tagline =
+    locale === "es"
+      ? "Una oficina neutral de asesoria y coordinacion que apoya a empresas internacionales, inversionistas e instituciones."
+      : "A neutral advisory and coordination office supporting international businesses, investors, and institutions.";
 
-  const copyright = locale === 'es'
-    ? '2026 Texas International Commerce & Relations Office. Todos los derechos reservados.'
-    : '2026 Texas International Commerce & Relations Office. All rights reserved.';
+  const copyright =
+    locale === "es"
+      ? "2026 Texas International Commerce & Relations Office. Todos los derechos reservados."
+      : "2026 Texas International Commerce & Relations Office. All rights reserved.";
 
-  const disclaimerAgency = locale === 'es'
-    ? 'TXICRO no es una agencia gubernamental. Todos los compromisos son de naturaleza privada y profesional.'
-    : 'TXICRO is not a government agency. All engagements are private and professional in nature.';
+  const disclaimerAgency =
+    locale === "es"
+      ? "TXICRO no es una agencia gubernamental. Todos los compromisos son de naturaleza privada y profesional."
+      : "TXICRO is not a government agency. All engagements are private and professional in nature.";
 
-  const disclaimerFees = locale === 'es'
-    ? 'Asesoria basada en honorarios. Sin comisiones. Sin compensacion basada en transacciones.'
-    : 'Fee-based advisory. No commissions. No transaction-based compensation.';
+  const disclaimerFees =
+    locale === "es"
+      ? "Asesoria basada en honorarios. Sin comisiones. Sin compensacion basada en transacciones."
+      : "Fee-based advisory. No commissions. No transaction-based compensation.";
 
   return (
     <footer className="bg-navy text-white" role="contentinfo">
@@ -77,7 +111,10 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-8">
           {/* Column 1: Logo & Tagline */}
           <div className="sm:col-span-2 lg:col-span-1">
-            <Link href={`${prefix}/`} className="inline-flex items-center gap-2.5 mb-4">
+            <Link
+              href={`${prefix}/`}
+              className="inline-flex items-center gap-2.5 mb-4"
+            >
               <Image
                 src="/images/txicro-logo.png"
                 alt="TXICRO"
@@ -97,7 +134,7 @@ export default function Footer() {
           {/* Column 2: Quick Links */}
           <div>
             <h3 className="font-heading text-lg font-semibold text-gold mb-4">
-              {locale === 'es' ? 'Enlaces' : 'Quick Links'}
+              {locale === "es" ? "Enlaces" : "Quick Links"}
             </h3>
             <ul className="space-y-3 sm:space-y-2.5">
               {quickLinks.map((link) => (
@@ -116,7 +153,7 @@ export default function Footer() {
           {/* Column 3: Services */}
           <div>
             <h3 className="font-heading text-lg font-semibold text-gold mb-4">
-              {locale === 'es' ? 'Servicios' : 'Services'}
+              {locale === "es" ? "Servicios" : "Services"}
             </h3>
             <ul className="space-y-3 sm:space-y-2.5">
               {nav.services.map((service) => (
@@ -135,17 +172,23 @@ export default function Footer() {
           {/* Column 4: Contact */}
           <div>
             <h3 className="font-heading text-lg font-semibold text-gold mb-4">
-              {locale === 'es' ? 'Contacto' : 'Contact'}
+              {locale === "es" ? "Contacto" : "Contact"}
             </h3>
             <ul className="space-y-3">
               <li className="flex items-start gap-2.5">
-                <span className="text-gold mt-0.5 shrink-0"><LocationIcon /></span>
+                <span className="text-gold mt-0.5 shrink-0">
+                  <LocationIcon />
+                </span>
                 <span className="text-sm text-white/70 leading-relaxed">
-                  315 W Nolana Ave, Suite G-6<br />McAllen, TX 78504
+                  315 W Nolana Ave, Suite G-6
+                  <br />
+                  McAllen, TX 78504
                 </span>
               </li>
               <li className="flex items-center gap-2.5">
-                <span className="text-gold shrink-0"><EmailIcon /></span>
+                <span className="text-gold shrink-0">
+                  <EmailIcon />
+                </span>
                 <a
                   href="mailto:info@txicro.com"
                   className="text-sm text-white/70 hover:text-gold transition-colors"
@@ -154,9 +197,13 @@ export default function Footer() {
                 </a>
               </li>
               <li className="flex items-center gap-2.5">
-                <span className="text-gold shrink-0"><ClockIcon /></span>
+                <span className="text-gold shrink-0">
+                  <ClockIcon />
+                </span>
                 <span className="text-sm text-white/70">
-                  {locale === 'es' ? 'Lun-Vie 9am-5pm CST' : 'Mon-Fri 9am-5pm CST'}
+                  {locale === "es"
+                    ? "Lun-Vie 9am-5pm CST"
+                    : "Mon-Fri 9am-5pm CST"}
                 </span>
               </li>
               <li className="flex items-center gap-2.5">
@@ -183,9 +230,7 @@ export default function Footer() {
       {/* Bottom Bar */}
       <div className="max-w-txicro mx-auto px-4 sm:px-6 lg:px-8 py-6">
         <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-4">
-          <p className="text-xs text-white/50">
-            &copy; {copyright}
-          </p>
+          <p className="text-xs text-white/50">&copy; {copyright}</p>
           <div className="flex flex-col gap-1 lg:text-right">
             <p className="text-xs text-white/40">{disclaimerAgency}</p>
             <p className="text-xs text-white/40">{disclaimerFees}</p>

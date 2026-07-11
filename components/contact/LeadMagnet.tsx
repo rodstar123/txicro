@@ -1,43 +1,43 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
-import { Container, GoldDivider, Button } from '@/components/ui';
+import { useState } from "react";
+import { Container, GoldDivider, Button } from "@/components/ui";
 
 interface LeadMagnetProps {
-  locale: 'en' | 'es';
+  locale: "en" | "es";
 }
 
 const content = {
   en: {
-    title: 'Not Ready for an Assessment?',
+    title: "Not Ready for an Assessment?",
     description:
-      'Download our free McAllen Gateway Guide \u2014 a comprehensive introduction to cross-border commerce in the Rio Grande Valley.',
-    placeholder: 'Enter your email',
-    button: 'Download',
-    disclaimer: 'We respect your privacy. Unsubscribe anytime.',
-    success: 'Thank you! Check your email for the download link.',
+      "Download our free McAllen Gateway Guide \u2014 a comprehensive introduction to cross-border commerce in the Rio Grande Valley.",
+    placeholder: "Enter your email",
+    button: "Download",
+    disclaimer: "We respect your privacy. Unsubscribe anytime.",
+    success: "Thank you! Check your email for the download link.",
   },
   es: {
-    title: '\u00bfA\u00fan No Est\u00e1 Listo para una Evaluaci\u00f3n?',
+    title: "\u00bfA\u00fan No Est\u00e1 Listo para una Evaluaci\u00f3n?",
     description:
-      'Descargue nuestra Gu\u00eda Gratuita del Portal de McAllen \u2014 una introducci\u00f3n completa al comercio transfronterizo en el Valle del R\u00edo Grande.',
-    placeholder: 'Ingrese su correo electr\u00f3nico',
-    button: 'Descargar',
-    disclaimer: 'Respetamos su privacidad. Cancele en cualquier momento.',
-    success: 'Gracias! Revise su correo para el enlace de descarga.',
+      "Descargue nuestra Gu\u00eda Gratuita del Portal de McAllen \u2014 una introducci\u00f3n completa al comercio transfronterizo en el Valle del R\u00edo Grande.",
+    placeholder: "Ingrese su correo electr\u00f3nico",
+    button: "Descargar",
+    disclaimer: "Respetamos su privacidad. Cancele en cualquier momento.",
+    success: "Gracias! Revise su correo para el enlace de descarga.",
   },
 };
 
 export default function LeadMagnet({ locale }: LeadMagnetProps) {
   const t = content[locale];
-  const [email, setEmail] = useState('');
+  const [email, setEmail] = useState("");
   const [submitted, setSubmitted] = useState(false);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (email.trim()) {
       // eslint-disable-next-line no-console
-      console.log('Lead magnet email:', email);
+      console.log("Lead magnet email:", email);
       setSubmitted(true);
     }
   };

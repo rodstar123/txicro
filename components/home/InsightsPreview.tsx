@@ -1,61 +1,65 @@
-import { Container } from '@/components/ui';
+import { Container } from "@/components/ui";
 
 interface InsightsPreviewProps {
-  locale: 'en' | 'es';
+  locale: "en" | "es";
 }
 
 const content = {
   en: {
-    sectionTitle: 'Insights & Perspectives',
+    sectionTitle: "Insights & Perspectives",
     sectionSubtitle:
-      'Analysis and guidance on international market entry, cross-border strategy, and doing business in the Rio Grande Valley.',
+      "Analysis and guidance on international market entry, cross-border strategy, and doing business in the Rio Grande Valley.",
     articles: [
       {
-        category: 'Market Entry',
-        title: 'The McAllen Advantage: Why International Companies Are Choosing the RGV',
+        category: "Market Entry",
+        title:
+          "The McAllen Advantage: Why International Companies Are Choosing the RGV",
         excerpt:
-          'The Rio Grande Valley offers a unique combination of proximity to Mexico, Foreign Trade Zone access, and a bilingual workforce that makes it an increasingly attractive entry point for international companies.',
+          "The Rio Grande Valley offers a unique combination of proximity to Mexico, Foreign Trade Zone access, and a bilingual workforce that makes it an increasingly attractive entry point for international companies.",
       },
       {
-        category: 'Operations',
-        title: 'A Guide to Opening a Maquiladora Near McAllen, Texas',
+        category: "Operations",
+        title: "A Guide to Opening a Maquiladora Near McAllen, Texas",
         excerpt:
-          'Understanding the regulatory framework, site selection criteria, and cross-border logistics involved in establishing maquiladora operations along the Texas-Mexico border.',
+          "Understanding the regulatory framework, site selection criteria, and cross-border logistics involved in establishing maquiladora operations along the Texas-Mexico border.",
       },
       {
-        category: 'Strategy',
-        title: 'McAllen vs Laredo: Which Border City Is Right for Your Business?',
+        category: "Strategy",
+        title:
+          "McAllen vs Laredo: Which Border City Is Right for Your Business?",
         excerpt:
-          'A comparative analysis of two major Texas border cities — their infrastructure, workforce availability, trade volumes, and strategic advantages for different types of operations.',
+          "A comparative analysis of two major Texas border cities — their infrastructure, workforce availability, trade volumes, and strategic advantages for different types of operations.",
       },
     ],
-    readMore: 'Read more',
+    readMore: "Read more",
   },
   es: {
-    sectionTitle: 'Perspectivas y Análisis',
+    sectionTitle: "Perspectivas y Análisis",
     sectionSubtitle:
-      'Análisis y orientación sobre entrada al mercado internacional, estrategia transfronteriza y hacer negocios en el Valle del Río Grande.',
+      "Análisis y orientación sobre entrada al mercado internacional, estrategia transfronteriza y hacer negocios en el Valle del Río Grande.",
     articles: [
       {
-        category: 'Entrada al Mercado',
-        title: 'La Ventaja de McAllen: Por Qué las Empresas Internacionales Eligen el RGV',
+        category: "Entrada al Mercado",
+        title:
+          "La Ventaja de McAllen: Por Qué las Empresas Internacionales Eligen el RGV",
         excerpt:
-          'El Valle del Río Grande ofrece una combinación única de proximidad a México, acceso a Zonas de Comercio Exterior y una fuerza laboral bilingüe que lo convierte en un punto de entrada cada vez más atractivo para empresas internacionales.',
+          "El Valle del Río Grande ofrece una combinación única de proximidad a México, acceso a Zonas de Comercio Exterior y una fuerza laboral bilingüe que lo convierte en un punto de entrada cada vez más atractivo para empresas internacionales.",
       },
       {
-        category: 'Operaciones',
-        title: 'Guía para Abrir una Maquiladora Cerca de McAllen, Texas',
+        category: "Operaciones",
+        title: "Guía para Abrir una Maquiladora Cerca de McAllen, Texas",
         excerpt:
-          'Comprender el marco regulatorio, criterios de selección de sitio y la logística transfronteriza involucrada en establecer operaciones de maquiladora a lo largo de la frontera Texas-México.',
+          "Comprender el marco regulatorio, criterios de selección de sitio y la logística transfronteriza involucrada en establecer operaciones de maquiladora a lo largo de la frontera Texas-México.",
       },
       {
-        category: 'Estrategia',
-        title: 'McAllen vs Laredo: ¿Cuál Ciudad Fronteriza Es Mejor para Su Negocio?',
+        category: "Estrategia",
+        title:
+          "McAllen vs Laredo: ¿Cuál Ciudad Fronteriza Es Mejor para Su Negocio?",
         excerpt:
-          'Un análisis comparativo de dos ciudades fronterizas importantes de Texas — su infraestructura, disponibilidad de fuerza laboral, volúmenes comerciales y ventajas estratégicas para diferentes tipos de operaciones.',
+          "Un análisis comparativo de dos ciudades fronterizas importantes de Texas — su infraestructura, disponibilidad de fuerza laboral, volúmenes comerciales y ventajas estratégicas para diferentes tipos de operaciones.",
       },
     ],
-    readMore: 'Leer más',
+    readMore: "Leer más",
   },
 };
 
@@ -96,7 +100,9 @@ export default function InsightsPreview({ locale }: InsightsPreviewProps) {
                 </p>
                 <span className="inline-flex items-center text-gold text-sm font-semibold mt-3 font-body">
                   {t.readMore}
-                  <span className="ml-1" aria-hidden="true">&rarr;</span>
+                  <span className="ml-1" aria-hidden="true">
+                    &rarr;
+                  </span>
                 </span>
               </div>
             </div>

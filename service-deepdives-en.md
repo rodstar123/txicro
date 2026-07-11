@@ -1,16 +1,20 @@
 # TXICRO.COM — 6 SERVICE DEEP-DIVE PAGES (ENGLISH)
 
 ---
+
 ---
 
 # PAGE 6: MARKET ENTRY ADVISORY
+
 ## Route: /services/market-entry
 
 ### META
+
 - **Title:** International Market Entry Advisory | Texas Market Entry Consulting | TXICRO
 - **Description:** Structured advisory for international organizations evaluating Texas market entry. Readiness assessment, regulatory overview, timeline planning, and go/no-go recommendations from McAllen, TX.
 
 ### HERO
+
 **Headline:** International Market Entry Advisory
 **Subheadline:** A structured assessment of whether, when, and how your organization should enter the Texas and United States market — delivered as a written recommendation you can act on.
 
@@ -53,22 +57,27 @@ Then you have saved yourself from a costly mistake. Our fee-based model means we
 Our deepest expertise is in the RGV and South Texas. For locations in Houston, Austin, Dallas, or San Antonio, we can provide general guidance and refer you to regional specialists.
 
 ### CTA
+
 **Headline:** Ready to Evaluate Your Texas Entry?
 Request an assessment and receive a clear, independent recommendation — not a sales pitch.
 **CTA:** Request an Assessment →
 **Cross-links:** Related: Cross-Border Risk Assessment | Stakeholder Mapping | Delegation Support
 
 ---
+
 ---
 
 # PAGE 7: CROSS-BORDER RISK ASSESSMENT
+
 ## Route: /services/cross-border-risk
 
 ### META
+
 - **Title:** Cross-Border Risk Assessment | Mexico-Texas Business Risk Consulting | TXICRO
 - **Description:** Structured risk analysis across commercial, regulatory, and operational dimensions for organizations operating in the US-Mexico corridor. Independent assessment from McAllen, TX.
 
 ### HERO
+
 **Headline:** Cross-Border Strategy & Risk Assessment
 **Subheadline:** A clear-eyed analysis of what can go wrong — commercially, regulatorily, and operationally — before you commit capital, contracts, or reputation.
 
@@ -104,21 +113,26 @@ Our assessment focuses on the US side of cross-border operations. For risks spec
 Due diligence is typically transaction-specific and backward-looking. Risk assessment is forward-looking — it evaluates what could affect your operation going forward, not just what has happened in the past.
 
 ### CTA
+
 **Headline:** Know Your Risks Before You Commit
 **CTA:** Request an Assessment →
 **Cross-links:** Related: Market Entry Advisory | Stakeholder Mapping | Strategic Briefings
 
 ---
+
 ---
 
 # PAGE 8: STAKEHOLDER MAPPING
+
 ## Route: /services/stakeholder-mapping
 
 ### META
+
 - **Title:** Partner & Stakeholder Mapping | Business Partner Identification Texas | TXICRO
 - **Description:** Identify and sequence relationships with key stakeholders in Texas — government agencies, chambers, EDOs, private sector partners. Independent mapping from McAllen, TX.
 
 ### HERO
+
 **Headline:** Partner & Stakeholder Mapping
 **Subheadline:** Knowing who matters — and in what order to approach them — is the difference between a smooth entry and months of wasted effort.
 
@@ -151,21 +165,26 @@ Yes, where we have existing relationships. We coordinate introductions with appr
 A directory gives you names. Stakeholder mapping gives you strategy — who matters for your specific objectives, in what order, and with what approach. It is the difference between a phone book and a game plan.
 
 ### CTA
+
 **Headline:** Map Your Path Before You Walk It
 **CTA:** Request an Assessment →
 **Cross-links:** Related: Market Entry Advisory | Trade Relations | Delegation Support
 
 ---
+
 ---
 
 # PAGE 9: TRADE RELATIONS
+
 ## Route: /services/trade-relations
 
 ### META
+
 - **Title:** Trade & Institutional Relations Guidance | Protocol Advisory Texas | TXICRO
 - **Description:** Navigate institutional frameworks, government agencies, trade bodies, and chambers of commerce with protocol-aware strategy. Independent guidance from McAllen, TX.
 
 ### HERO
+
 **Headline:** Trade & Institutional Relations Guidance
 **Subheadline:** Navigating the institutional landscape with the right protocol, the right boundaries, and the right timing.
 
@@ -200,21 +219,26 @@ No. TXICRO advises and prepares. We do not act as registered lobbyists or repres
 We can provide guidance on appropriate engagement with consular and diplomatic entities, including protocol awareness and preparation. However, we do not represent clients in diplomatic matters.
 
 ### CTA
+
 **Headline:** Navigate Institutions with Confidence
 **CTA:** Request an Assessment →
 **Cross-links:** Related: Stakeholder Mapping | Strategic Briefings | Delegation Support
 
 ---
+
 ---
 
 # PAGE 10: STRATEGIC BRIEFINGS
+
 ## Route: /services/strategic-briefings
 
 ### META
+
 - **Title:** Strategic Briefings & Advisory Reports | Executive Briefing | TXICRO
 - **Description:** Independent written briefings for leadership teams and institutional partners. Decision memos, board-ready documents, and executive summaries on cross-border commerce in Texas.
 
 ### HERO
+
 **Headline:** Strategic Briefings & Advisory Reports
 **Subheadline:** Independent, written analysis that leadership teams can trust — because it was produced by an advisor with no stake in the outcome.
 
@@ -250,21 +274,26 @@ It depends on scope. Decision memos are typically five to ten pages. Full strate
 Yes. We offer presentation sessions where we walk your team through the findings, provide context, and answer questions in real time.
 
 ### CTA
+
 **Headline:** Get the Analysis Your Team Needs
 **CTA:** Request an Assessment →
 **Cross-links:** Related: Cross-Border Risk Assessment | Trade Relations | Market Entry Advisory
 
 ---
+
 ---
 
 # PAGE 11: DELEGATION SUPPORT
+
 ## Route: /services/delegation-support
 
 ### META
+
 - **Title:** Delegation & Trade Mission Support | Trade Mission Coordination Texas | TXICRO
 - **Description:** End-to-end coordination for visiting trade delegations and business missions to the Rio Grande Valley. Agenda planning, briefings, logistics, and follow-up from McAllen, TX.
 
 ### HERO
+
 **Headline:** Delegation & Trade Mission Support
 **Subheadline:** Professional coordination for visiting delegations and trade missions — from agenda design to post-visit follow-up, executed with the precision your visit demands.
 
@@ -303,6 +332,7 @@ TXICRO's principal advisor is bilingual in English and Spanish. For delegations 
 We have coordinated visits for delegations ranging from three to twenty-five participants. The agenda structure and logistics approach scale to the group size.
 
 ### CTA
+
 **Headline:** Make Every Visit Count
 Your delegation deserves more than a list of meetings. It deserves a strategy.
 **CTA:** Request an Assessment →

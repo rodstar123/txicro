@@ -1,29 +1,29 @@
-import { Container, GoldDivider } from '@/components/ui';
+import { Container, GoldDivider } from "@/components/ui";
 
 interface ContactInfoProps {
-  locale: 'en' | 'es';
+  locale: "en" | "es";
 }
 
 const content = {
   en: {
-    title: 'Direct Contact',
-    email: 'info@txicro.com',
-    address: '315 W Nolana Ave, Suite G-6, McAllen, TX 78504',
-    hours: 'Monday\u2013Friday, 9:00 AM \u2013 5:00 PM CST',
-    byAppointment: 'Meetings by appointment',
-    emailLabel: 'Email',
-    addressLabel: 'Address',
-    hoursLabel: 'Hours',
+    title: "Direct Contact",
+    email: "info@txicro.com",
+    address: "315 W Nolana Ave, Suite G-6, McAllen, TX 78504",
+    hours: "Monday\u2013Friday, 9:00 AM \u2013 5:00 PM CST",
+    byAppointment: "Meetings by appointment",
+    emailLabel: "Email",
+    addressLabel: "Address",
+    hoursLabel: "Hours",
   },
   es: {
-    title: 'Contacto Directo',
-    email: 'info@txicro.com',
-    address: '315 W Nolana Ave, Suite G-6, McAllen, TX 78504',
-    hours: 'Lunes\u2013Viernes, 9:00 AM \u2013 5:00 PM CST',
-    byAppointment: 'Reuniones con cita previa',
-    emailLabel: 'Correo',
-    addressLabel: 'Direcci\u00f3n',
-    hoursLabel: 'Horario',
+    title: "Contacto Directo",
+    email: "info@txicro.com",
+    address: "315 W Nolana Ave, Suite G-6, McAllen, TX 78504",
+    hours: "Lunes\u2013Viernes, 9:00 AM \u2013 5:00 PM CST",
+    byAppointment: "Reuniones con cita previa",
+    emailLabel: "Correo",
+    addressLabel: "Direcci\u00f3n",
+    hoursLabel: "Horario",
   },
 };
 
@@ -70,9 +70,7 @@ export default function ContactInfo({ locale }: ContactInfoProps) {
                 <h3 className="text-sm font-semibold text-navy uppercase tracking-wider font-body mb-1">
                   {t.hoursLabel}
                 </h3>
-                <p className="text-slate text-lg font-body">
-                  {t.hours}
-                </p>
+                <p className="text-slate text-lg font-body">{t.hours}</p>
                 <p className="text-slate-light text-base font-body mt-1 italic">
                   {t.byAppointment}
                 </p>
@@ -91,7 +89,11 @@ export default function ContactInfo({ locale }: ContactInfoProps) {
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title={locale === 'es' ? 'Ubicaci\u00f3n de TXICRO en McAllen' : 'TXICRO office location in McAllen'}
+                title={
+                  locale === "es"
+                    ? "Ubicaci\u00f3n de TXICRO en McAllen"
+                    : "TXICRO office location in McAllen"
+                }
               />
             </div>
           </div>

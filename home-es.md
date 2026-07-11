@@ -1,9 +1,11 @@
 # TXICRO.COM — PÁGINA PRINCIPAL (ESPAÑOL)
+
 ## Ruta: /es
 
 ---
 
 ### META
+
 - **Title:** TXICRO | Asesoría en Comercio Internacional y Consultoría Transfronteriza | McAllen, TX
 - **Description:** Asesoría y coordinación independiente para organizaciones internacionales que buscan ingresar o expandirse en Texas. Oficina privada, bilingüe, basada en McAllen. Sin comisiones.
 - **OG Title:** TXICRO — Su Puente Entre Texas y América Latina
@@ -106,6 +108,7 @@ Empresas basadas en Texas que buscan expandirse hacia mercados latinoamericanos,
 McAllen, Texas se encuentra en el corazón de uno de los corredores de comercio transfronterizo más dinámicos del hemisferio occidental. Con conexión directa a Monterrey — la capital industrial de México — y una posición estratégica a lo largo de la frontera Texas-México, McAllen ofrece lo que pocas ciudades pueden.
 
 **Bloque de Estadísticas:**
+
 - A 2.5 horas de Monterrey, capital industrial de México
 - Zona de Comercio Exterior de McAllen #12 — una de las más activas de EE.UU.
 - Más de $200 mil millones en comercio anual entre EE.UU. y México fluyen por el Valle del Río Grande

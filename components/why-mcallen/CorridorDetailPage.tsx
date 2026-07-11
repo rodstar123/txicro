@@ -1,7 +1,7 @@
-import Link from 'next/link';
-import { Container, GoldDivider, Button } from '@/components/ui';
-import Breadcrumbs from '@/components/Breadcrumbs';
-import CTASection from '@/components/CTASection';
+import Link from "next/link";
+import { Container, GoldDivider, Button } from "@/components/ui";
+import Breadcrumbs from "@/components/Breadcrumbs";
+import CTASection from "@/components/CTASection";
 
 interface KeyFact {
   label: string;
@@ -33,46 +33,49 @@ interface CorridorData {
 }
 
 interface CorridorDetailPageProps {
-  locale: 'en' | 'es';
+  locale: "en" | "es";
   corridor: CorridorData;
 }
 
-export default function CorridorDetailPage({ locale, corridor }: CorridorDetailPageProps) {
-  const hubHref = locale === 'es' ? '/es/why-mcallen' : '/why-mcallen';
-  const contactHref = locale === 'es' ? '/es/contact' : '/contact';
+export default function CorridorDetailPage({
+  locale,
+  corridor,
+}: CorridorDetailPageProps) {
+  const hubHref = locale === "es" ? "/es/why-mcallen" : "/why-mcallen";
+  const contactHref = locale === "es" ? "/es/contact" : "/contact";
 
   const labels = {
     en: {
-      hubLabel: 'Why McAllen',
-      overviewHeading: 'The Corridor',
-      keyFactsHeading: 'Key Facts',
-      tradeHeading: 'Trade Relationship',
-      businessHeading: 'Why This Matters',
-      comparisonHeading: 'Head-to-Head Comparison',
-      stakeholdersHeading: 'Key Stakeholders',
-      helpHeading: 'How TXICRO Can Help',
-      helpCta: 'Request an Assessment',
-      relatedHeading: 'Related Corridors',
-      explore: 'Explore',
-      categoryLabel: 'Category',
-      mcallenLabel: 'McAllen',
-      laredoLabel: 'Laredo',
+      hubLabel: "Why McAllen",
+      overviewHeading: "The Corridor",
+      keyFactsHeading: "Key Facts",
+      tradeHeading: "Trade Relationship",
+      businessHeading: "Why This Matters",
+      comparisonHeading: "Head-to-Head Comparison",
+      stakeholdersHeading: "Key Stakeholders",
+      helpHeading: "How TXICRO Can Help",
+      helpCta: "Request an Assessment",
+      relatedHeading: "Related Corridors",
+      explore: "Explore",
+      categoryLabel: "Category",
+      mcallenLabel: "McAllen",
+      laredoLabel: "Laredo",
     },
     es: {
-      hubLabel: 'Por Que McAllen',
-      overviewHeading: 'El Corredor',
-      keyFactsHeading: 'Datos Clave',
-      tradeHeading: 'Relacion Comercial',
-      businessHeading: 'Por Que Importa',
-      comparisonHeading: 'Comparacion Directa',
-      stakeholdersHeading: 'Actores Clave',
-      helpHeading: 'Como TXICRO Puede Ayudar',
-      helpCta: 'Solicitar una Evaluacion',
-      relatedHeading: 'Corredores Relacionados',
-      explore: 'Explorar',
-      categoryLabel: 'Categoria',
-      mcallenLabel: 'McAllen',
-      laredoLabel: 'Laredo',
+      hubLabel: "Por Que McAllen",
+      overviewHeading: "El Corredor",
+      keyFactsHeading: "Datos Clave",
+      tradeHeading: "Relacion Comercial",
+      businessHeading: "Por Que Importa",
+      comparisonHeading: "Comparacion Directa",
+      stakeholdersHeading: "Actores Clave",
+      helpHeading: "Como TXICRO Puede Ayudar",
+      helpCta: "Solicitar una Evaluacion",
+      relatedHeading: "Corredores Relacionados",
+      explore: "Explorar",
+      categoryLabel: "Categoria",
+      mcallenLabel: "McAllen",
+      laredoLabel: "Laredo",
     },
   };
 
@@ -80,7 +83,7 @@ export default function CorridorDetailPage({ locale, corridor }: CorridorDetailP
 
   const breadcrumbs = [
     { label: t.hubLabel, href: hubHref },
-    { label: corridor.title, href: '#' },
+    { label: corridor.title, href: "#" },
   ];
 
   return (
@@ -113,8 +116,11 @@ export default function CorridorDetailPage({ locale, corridor }: CorridorDetailP
           </h2>
           <GoldDivider width="sm" className="mb-8 !mx-0" />
           <div className="max-w-3xl space-y-4">
-            {corridor.overview.split('\n\n').map((para, i) => (
-              <p key={i} className="font-body text-slate leading-relaxed text-lg">
+            {corridor.overview.split("\n\n").map((para, i) => (
+              <p
+                key={i}
+                className="font-body text-slate leading-relaxed text-lg"
+              >
                 {para}
               </p>
             ))}
@@ -155,8 +161,11 @@ export default function CorridorDetailPage({ locale, corridor }: CorridorDetailP
           </h2>
           <GoldDivider width="sm" className="mb-8 !mx-0" />
           <div className="max-w-3xl space-y-4">
-            {corridor.tradeRelationship.split('\n\n').map((para, i) => (
-              <p key={i} className="font-body text-slate leading-relaxed text-lg">
+            {corridor.tradeRelationship.split("\n\n").map((para, i) => (
+              <p
+                key={i}
+                className="font-body text-slate leading-relaxed text-lg"
+              >
                 {para}
               </p>
             ))}
@@ -212,15 +221,24 @@ export default function CorridorDetailPage({ locale, corridor }: CorridorDetailP
       )}
 
       {/* Business Implications */}
-      <section className={corridor.comparison ? 'bg-white py-section-mobile sm:py-section' : 'bg-lightgray py-section-mobile sm:py-section'}>
+      <section
+        className={
+          corridor.comparison
+            ? "bg-white py-section-mobile sm:py-section"
+            : "bg-lightgray py-section-mobile sm:py-section"
+        }
+      >
         <Container>
           <h2 className="font-heading text-3xl sm:text-4xl text-navy mb-6">
             {t.businessHeading}
           </h2>
           <GoldDivider width="sm" className="mb-8 !mx-0" />
           <div className="max-w-3xl space-y-4">
-            {corridor.businessImplications.split('\n\n').map((para, i) => (
-              <p key={i} className="font-body text-slate leading-relaxed text-lg">
+            {corridor.businessImplications.split("\n\n").map((para, i) => (
+              <p
+                key={i}
+                className="font-body text-slate leading-relaxed text-lg"
+              >
                 {para}
               </p>
             ))}
@@ -229,7 +247,13 @@ export default function CorridorDetailPage({ locale, corridor }: CorridorDetailP
       </section>
 
       {/* Stakeholders */}
-      <section className={corridor.comparison ? 'bg-lightgray py-section-mobile sm:py-section' : 'bg-white py-section-mobile sm:py-section'}>
+      <section
+        className={
+          corridor.comparison
+            ? "bg-lightgray py-section-mobile sm:py-section"
+            : "bg-white py-section-mobile sm:py-section"
+        }
+      >
         <Container>
           <h2 className="font-heading text-3xl sm:text-4xl text-navy mb-6">
             {t.stakeholdersHeading}
@@ -238,8 +262,13 @@ export default function CorridorDetailPage({ locale, corridor }: CorridorDetailP
           <ul className="space-y-4 max-w-3xl">
             {corridor.stakeholders.map((item, i) => (
               <li key={i} className="flex items-start gap-3">
-                <span className="w-2 h-2 rounded-full bg-gold flex-shrink-0 mt-2.5" aria-hidden="true" />
-                <span className="font-body text-slate text-lg leading-relaxed">{item}</span>
+                <span
+                  className="w-2 h-2 rounded-full bg-gold flex-shrink-0 mt-2.5"
+                  aria-hidden="true"
+                />
+                <span className="font-body text-slate text-lg leading-relaxed">
+                  {item}
+                </span>
               </li>
             ))}
           </ul>
@@ -254,8 +283,11 @@ export default function CorridorDetailPage({ locale, corridor }: CorridorDetailP
           </h2>
           <GoldDivider width="sm" className="mb-8 !mx-0" />
           <div className="max-w-3xl space-y-4 mb-8">
-            {corridor.howTxicroHelps.split('\n\n').map((para, i) => (
-              <p key={i} className="font-body text-gray-300 text-lg leading-relaxed">
+            {corridor.howTxicroHelps.split("\n\n").map((para, i) => (
+              <p
+                key={i}
+                className="font-body text-gray-300 text-lg leading-relaxed"
+              >
                 {para}
               </p>
             ))}
@@ -284,8 +316,18 @@ export default function CorridorDetailPage({ locale, corridor }: CorridorDetailP
                 </h4>
                 <span className="font-body text-sm text-gold flex items-center">
                   {t.explore}
-                  <svg className="w-3.5 h-3.5 ml-1 group-hover:translate-x-1 transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                  <svg
+                    className="w-3.5 h-3.5 ml-1 group-hover:translate-x-1 transition-transform duration-200"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M17 8l4 4m0 0l-4 4m4-4H3"
+                    />
                   </svg>
                 </span>
               </Link>

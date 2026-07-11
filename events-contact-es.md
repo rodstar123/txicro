@@ -1,16 +1,20 @@
 # TXICRO.COM — EVENTOS Y CONTACTO (ESPAÑOL)
 
 ---
+
 ---
 
 # EVENTOS Y CONFERENCIAS
+
 ## Ruta: /es/events
 
 ### META
+
 - **Title:** Eventos y Conferencias | TXICRO | Eventos Comerciales Transfronterizos | McAllen, TX
 - **Description:** TXICRO participa y apoya eventos comerciales, misiones de negocios y encuentros de comercio transfronterizo en el Valle del Río Grande. Conferencias, coordinación y asesoría.
 
 ### HERO
+
 **Titular:** Eventos y Conferencias
 **Subtítulo:** TXICRO es activo en la comunidad de comercio transfronterizo — participando en eventos comerciales, recibiendo delegaciones y compartiendo perspectivas sobre negocios internacionales en el Valle del Río Grande.
 
@@ -18,7 +22,7 @@
 
 (Diseño de tarjetas — poblar conforme se programen eventos)
 
-*No hay eventos próximos listados actualmente. Regrese para anuncios sobre misiones comerciales, conferencias y eventos comunitarios.*
+_No hay eventos próximos listados actualmente. Regrese para anuncios sobre misiones comerciales, conferencias y eventos comunitarios._
 
 ### TEMAS DE CONFERENCIAS
 
@@ -40,7 +44,7 @@ Noe Rodriguez está disponible para conferencias, participación en paneles y co
 
 ### EVENTOS PASADOS
 
-*A medida que TXICRO participe en eventos durante 2026, esta sección presentará resúmenes, fotos y conclusiones clave de misiones comerciales, conferencias y reuniones comunitarias.*
+_A medida que TXICRO participe en eventos durante 2026, esta sección presentará resúmenes, fotos y conclusiones clave de misiones comerciales, conferencias y reuniones comunitarias._
 
 ### SECCIÓN CTA
 
@@ -52,16 +56,20 @@ Ya sea que esté organizando una misión comercial, un evento de cámara, una co
 **CTA Secundario:** Ver Nuestros Servicios →
 
 ---
+
 ---
 
 # CONTACTO / SOLICITAR EVALUACIÓN
+
 ## Ruta: /es/contact
 
 ### META
+
 - **Title:** Contacte a TXICRO | Solicite una Evaluación | Asesoría Comercio Internacional | McAllen, TX
 - **Description:** Solicite una evaluación confidencial de TXICRO. Entrada al mercado internacional, riesgos transfronterizos, mapeo de actores clave y servicios de asesoría en McAllen, Texas.
 
 ### HERO
+
 **Titular:** Comience con Claridad
 **Subtítulo:** Una evaluación inicial proporciona un entendimiento estructurado de las oportunidades, riesgos y próximos pasos — antes de que se tomen decisiones importantes.
 
@@ -106,4 +114,5 @@ Descargue nuestra Guía Gratuita de McAllen — una introducción integral al co
 **Reuniones:** Solo con cita previa
 
 ### NOTA AL PIE
+
 Revisado personalmente. Si hay alineación, respondemos dentro de 1 día hábil con los próximos pasos.

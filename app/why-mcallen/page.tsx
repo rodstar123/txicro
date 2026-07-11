@@ -1,21 +1,21 @@
-import { generatePageMetadata } from '@/lib/metadata';
-import Breadcrumbs from '@/components/Breadcrumbs';
-import { Container } from '@/components/ui';
-import CTASection from '@/components/CTASection';
-import WhyMcAllenHero from '@/components/why-mcallen/WhyMcAllenHero';
-import StatsBlock from '@/components/why-mcallen/StatsBlock';
-import StrategicPosition from '@/components/why-mcallen/StrategicPosition';
-import WhyTexas from '@/components/why-mcallen/WhyTexas';
-import WhyMcAllenSpecific from '@/components/why-mcallen/WhyMcAllenSpecific';
-import IndustrySectors from '@/components/why-mcallen/IndustrySectors';
-import CorridorCards from '@/components/why-mcallen/CorridorCards';
+import { generatePageMetadata } from "@/lib/metadata";
+import Breadcrumbs from "@/components/Breadcrumbs";
+import { Container } from "@/components/ui";
+import CTASection from "@/components/CTASection";
+import WhyMcAllenHero from "@/components/why-mcallen/WhyMcAllenHero";
+import StatsBlock from "@/components/why-mcallen/StatsBlock";
+import StrategicPosition from "@/components/why-mcallen/StrategicPosition";
+import WhyTexas from "@/components/why-mcallen/WhyTexas";
+import WhyMcAllenSpecific from "@/components/why-mcallen/WhyMcAllenSpecific";
+import IndustrySectors from "@/components/why-mcallen/IndustrySectors";
+import CorridorCards from "@/components/why-mcallen/CorridorCards";
 
 export const metadata = generatePageMetadata({
-  title: 'Why McAllen, Texas | Trade Gateway | TXICRO',
+  title: "Why McAllen, Texas | Trade Gateway | TXICRO",
   description:
-    'McAllen, TX sits at the crossroads of US-Latin America trade. 2.5 hours from Monterrey, FTZ #12, no state income tax, bilingual workforce.',
-  path: '/why-mcallen',
-  locale: 'en',
+    "McAllen, TX sits at the crossroads of US-Latin America trade. 2.5 hours from Monterrey, FTZ #12, no state income tax, bilingual workforce.",
+  path: "/why-mcallen",
+  locale: "en",
 });
 
 export default function WhyMcAllenPage() {
@@ -24,7 +24,7 @@ export default function WhyMcAllenPage() {
       <WhyMcAllenHero locale="en" />
       <Container className="pt-8">
         <Breadcrumbs
-          items={[{ label: 'Why McAllen', href: '/why-mcallen' }]}
+          items={[{ label: "Why McAllen", href: "/why-mcallen" }]}
           locale="en"
         />
       </Container>

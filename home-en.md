@@ -1,9 +1,11 @@
 # TXICRO.COM — HOME PAGE CONTENT (ENGLISH)
+
 ## Route: /
 
 ---
 
 ### META
+
 - **Title:** TXICRO | International Trade Advisory & Cross-Border Consulting | McAllen, TX
 - **Description:** Fee-based advisory and coordination for international organizations entering or expanding in Texas. Independent, bilingual, McAllen-based. No commissions.
 - **OG Title:** TXICRO — Your Bridge Between Texas and Latin America
@@ -106,6 +108,7 @@ Texas-based businesses looking to expand into Latin American markets, establish 
 McAllen, Texas sits at the heart of one of the most dynamic cross-border commerce corridors in the Western Hemisphere. With a direct connection to Monterrey — Mexico's industrial capital — and a strategic position along the Texas-Mexico border, McAllen offers what few cities can.
 
 **Stat Block:**
+
 - 2.5 hours from Monterrey, Mexico's industrial capital
 - McAllen Foreign Trade Zone #12 — one of the most active in the US
 - $200B+ in annual US-Mexico border trade flows through the Rio Grande Valley
@@ -154,6 +157,7 @@ An initial assessment provides a structured understanding of opportunities, risk
 ---
 
 ### FOOTER DISCLAIMER
+
 TXICRO is not a government agency. All engagements are private and professional in nature. Fee-based advisory — no commissions, no transaction-based compensation.
 
 © 2026 Texas International Commerce & Relations Office. All rights reserved.

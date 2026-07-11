@@ -1,17 +1,19 @@
-import { Container, GoldDivider } from '@/components/ui';
+import { Container, GoldDivider } from "@/components/ui";
 
 interface PastEventsProps {
-  locale: 'en' | 'es';
+  locale: "en" | "es";
 }
 
 const content = {
   en: {
-    title: 'Past Events',
-    placeholder: 'As TXICRO participates in events throughout 2026, this section will feature recaps, photos, and key takeaways from trade missions, speaking engagements, and community gatherings.',
+    title: "Past Events",
+    placeholder:
+      "As TXICRO participates in events throughout 2026, this section will feature recaps, photos, and key takeaways from trade missions, speaking engagements, and community gatherings.",
   },
   es: {
-    title: 'Eventos Pasados',
-    placeholder: 'A medida que TXICRO participe en eventos durante 2026, esta secci\u00f3n presentar\u00e1 res\u00famenes, fotos y conclusiones clave de misiones comerciales, conferencias y reuniones comunitarias.',
+    title: "Eventos Pasados",
+    placeholder:
+      "A medida que TXICRO participe en eventos durante 2026, esta secci\u00f3n presentar\u00e1 res\u00famenes, fotos y conclusiones clave de misiones comerciales, conferencias y reuniones comunitarias.",
   },
 };
 
@@ -37,8 +39,18 @@ export default function PastEvents({ locale }: PastEventsProps) {
               key={i}
               className="aspect-video border-2 border-dashed border-gray-200 rounded-card flex items-center justify-center bg-gray-50"
             >
-              <svg className="w-8 h-8 text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 15.75l5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 013.182 0l2.909 2.909M3.75 21h16.5a1.5 1.5 0 001.5-1.5V5.25a1.5 1.5 0 00-1.5-1.5H3.75a1.5 1.5 0 00-1.5 1.5v14.25a1.5 1.5 0 001.5 1.5z" />
+              <svg
+                className="w-8 h-8 text-gray-300"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth={1.5}
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M2.25 15.75l5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 013.182 0l2.909 2.909M3.75 21h16.5a1.5 1.5 0 001.5-1.5V5.25a1.5 1.5 0 00-1.5-1.5H3.75a1.5 1.5 0 00-1.5 1.5v14.25a1.5 1.5 0 001.5 1.5z"
+                />
               </svg>
             </div>
           ))}

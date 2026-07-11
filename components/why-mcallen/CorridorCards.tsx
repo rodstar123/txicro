@@ -1,8 +1,8 @@
-import Link from 'next/link';
-import { Container, GoldDivider } from '@/components/ui';
+import Link from "next/link";
+import { Container, GoldDivider } from "@/components/ui";
 
 interface CorridorCardsProps {
-  locale: 'en' | 'es';
+  locale: "en" | "es";
 }
 
 interface CorridorCard {
@@ -12,102 +12,105 @@ interface CorridorCard {
   slug: string;
 }
 
-const content: Record<'en' | 'es', { title: string; subtitle: string; cards: CorridorCard[] }> = {
+const content: Record<
+  "en" | "es",
+  { title: string; subtitle: string; cards: CorridorCard[] }
+> = {
   en: {
-    title: 'Explore the Trade Corridors',
+    title: "Explore the Trade Corridors",
     subtitle:
-      'McAllen connects to the most important commercial centers in Texas and Mexico. Explore each corridor to understand the opportunities.',
+      "McAllen connects to the most important commercial centers in Texas and Mexico. Explore each corridor to understand the opportunities.",
     cards: [
       {
-        title: 'McAllen \u2194 Monterrey',
+        title: "McAllen \u2194 Monterrey",
         description:
-          'The industrial heartbeat. 2.5 hours to Latin America\u2019s manufacturing capital, connected through the Reynosa gateway.',
-        linkText: 'Explore the Monterrey corridor',
-        slug: 'monterrey',
+          "The industrial heartbeat. 2.5 hours to Latin America\u2019s manufacturing capital, connected through the Reynosa gateway.",
+        linkText: "Explore the Monterrey corridor",
+        slug: "monterrey",
       },
       {
-        title: 'McAllen vs Laredo',
+        title: "McAllen vs Laredo",
         description:
-          'Two border gateways, different strengths. An honest comparison of what each city offers international businesses.',
-        linkText: 'Read the comparison',
-        slug: 'vs-laredo',
+          "Two border gateways, different strengths. An honest comparison of what each city offers international businesses.",
+        linkText: "Read the comparison",
+        slug: "vs-laredo",
       },
       {
-        title: 'McAllen \u2194 Austin / San Antonio',
+        title: "McAllen \u2194 Austin / San Antonio",
         description:
-          'The Texas Triangle connection. Tech, defense, and the I-35 corridor linking McAllen to Central Texas.',
-        linkText: 'Explore the Austin corridor',
-        slug: 'austin-corridor',
+          "The Texas Triangle connection. Tech, defense, and the I-35 corridor linking McAllen to Central Texas.",
+        linkText: "Explore the Austin corridor",
+        slug: "austin-corridor",
       },
       {
-        title: 'McAllen \u2194 Houston',
+        title: "McAllen \u2194 Houston",
         description:
-          'Port access and energy. Five hours to the largest import-export port in the United States.',
-        linkText: 'Explore the Houston corridor',
-        slug: 'houston',
+          "Port access and energy. Five hours to the largest import-export port in the United States.",
+        linkText: "Explore the Houston corridor",
+        slug: "houston",
       },
       {
-        title: 'The RGV Cities',
+        title: "The RGV Cities",
         description:
-          'McAllen, Edinburg, Pharr, Mission, Hidalgo \u2014 an economic region with distinct strengths.',
-        linkText: 'Explore the RGV cities',
-        slug: 'rgv-cities',
+          "McAllen, Edinburg, Pharr, Mission, Hidalgo \u2014 an economic region with distinct strengths.",
+        linkText: "Explore the RGV cities",
+        slug: "rgv-cities",
       },
       {
-        title: 'McAllen \u2194 Mexico City',
+        title: "McAllen \u2194 Mexico City",
         description:
-          'Where the decisions are made. Connecting McAllen to Latin America\u2019s corporate headquarters.',
-        linkText: 'Explore the Mexico City corridor',
-        slug: 'mexico-city',
+          "Where the decisions are made. Connecting McAllen to Latin America\u2019s corporate headquarters.",
+        linkText: "Explore the Mexico City corridor",
+        slug: "mexico-city",
       },
     ],
   },
   es: {
-    title: 'Explore los Corredores Comerciales',
+    title: "Explore los Corredores Comerciales",
     subtitle:
-      'McAllen se conecta con los centros comerciales m\u00e1s importantes de Texas y M\u00e9xico. Explore cada corredor para comprender las oportunidades.',
+      "McAllen se conecta con los centros comerciales m\u00e1s importantes de Texas y M\u00e9xico. Explore cada corredor para comprender las oportunidades.",
     cards: [
       {
-        title: 'McAllen \u2194 Monterrey',
+        title: "McAllen \u2194 Monterrey",
         description:
-          'El latido industrial. A 2.5 horas de la capital manufacturera de Am\u00e9rica Latina, conectada a trav\u00e9s del corredor de Reynosa.',
-        linkText: 'Explorar el corredor de Monterrey',
-        slug: 'monterrey',
+          "El latido industrial. A 2.5 horas de la capital manufacturera de Am\u00e9rica Latina, conectada a trav\u00e9s del corredor de Reynosa.",
+        linkText: "Explorar el corredor de Monterrey",
+        slug: "monterrey",
       },
       {
-        title: 'McAllen vs Laredo',
+        title: "McAllen vs Laredo",
         description:
-          'Dos portales fronterizos, diferentes fortalezas. Una comparaci\u00f3n honesta de lo que cada ciudad ofrece a empresas internacionales.',
-        linkText: 'Leer la comparaci\u00f3n',
-        slug: 'vs-laredo',
+          "Dos portales fronterizos, diferentes fortalezas. Una comparaci\u00f3n honesta de lo que cada ciudad ofrece a empresas internacionales.",
+        linkText: "Leer la comparaci\u00f3n",
+        slug: "vs-laredo",
       },
       {
-        title: 'McAllen \u2194 Austin / San Antonio',
+        title: "McAllen \u2194 Austin / San Antonio",
         description:
-          'La conexi\u00f3n del Tri\u00e1ngulo de Texas. Tecnolog\u00eda, defensa y el corredor I-35 que conecta McAllen con el centro de Texas.',
-        linkText: 'Explorar el corredor de Austin',
-        slug: 'austin-corridor',
+          "La conexi\u00f3n del Tri\u00e1ngulo de Texas. Tecnolog\u00eda, defensa y el corredor I-35 que conecta McAllen con el centro de Texas.",
+        linkText: "Explorar el corredor de Austin",
+        slug: "austin-corridor",
       },
       {
-        title: 'McAllen \u2194 Houston',
+        title: "McAllen \u2194 Houston",
         description:
-          'Acceso portuario y energ\u00eda. Cinco horas hasta el puerto de importaci\u00f3n-exportaci\u00f3n m\u00e1s grande de los Estados Unidos.',
-        linkText: 'Explorar el corredor de Houston',
-        slug: 'houston',
+          "Acceso portuario y energ\u00eda. Cinco horas hasta el puerto de importaci\u00f3n-exportaci\u00f3n m\u00e1s grande de los Estados Unidos.",
+        linkText: "Explorar el corredor de Houston",
+        slug: "houston",
       },
       {
-        title: 'Las Ciudades del VRG',
+        title: "Las Ciudades del VRG",
         description:
-          'McAllen, Edinburg, Pharr, Mission, Hidalgo \u2014 una regi\u00f3n econ\u00f3mica con fortalezas distintas.',
-        linkText: 'Explorar las ciudades del VRG',
-        slug: 'rgv-cities',
+          "McAllen, Edinburg, Pharr, Mission, Hidalgo \u2014 una regi\u00f3n econ\u00f3mica con fortalezas distintas.",
+        linkText: "Explorar las ciudades del VRG",
+        slug: "rgv-cities",
       },
       {
-        title: 'McAllen \u2194 Ciudad de M\u00e9xico',
+        title: "McAllen \u2194 Ciudad de M\u00e9xico",
         description:
-          'Donde se toman las decisiones. Conectando McAllen con las sedes corporativas de Am\u00e9rica Latina.',
-        linkText: 'Explorar el corredor de Ciudad de M\u00e9xico',
-        slug: 'mexico-city',
+          "Donde se toman las decisiones. Conectando McAllen con las sedes corporativas de Am\u00e9rica Latina.",
+        linkText: "Explorar el corredor de Ciudad de M\u00e9xico",
+        slug: "mexico-city",
       },
     ],
   },
@@ -115,7 +118,7 @@ const content: Record<'en' | 'es', { title: string; subtitle: string; cards: Cor
 
 export default function CorridorCards({ locale }: CorridorCardsProps) {
   const t = content[locale];
-  const basePath = locale === 'es' ? '/es/why-mcallen' : '/why-mcallen';
+  const basePath = locale === "es" ? "/es/why-mcallen" : "/why-mcallen";
 
   return (
     <section className="bg-white py-section-mobile sm:py-section">
@@ -150,7 +153,11 @@ export default function CorridorCards({ locale }: CorridorCardsProps) {
                   stroke="currentColor"
                   aria-hidden="true"
                 >
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+                  />
                 </svg>
               </span>
             </Link>

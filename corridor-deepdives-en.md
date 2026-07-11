@@ -1,16 +1,20 @@
 # TXICRO.COM — 6 CORRIDOR DEEP-DIVE PAGES (ENGLISH)
 
 ---
+
 ---
 
 # PAGE 13: McALLEN ↔ MONTERREY
+
 ## Route: /why-mcallen/monterrey
 
 ### META
+
 - **Title:** McAllen to Monterrey Corridor | Maquiladora Consulting | Texas-Mexico Trade | TXICRO
 - **Description:** The McAllen-Reynosa-Monterrey corridor is one of the most active trade arteries in North America. 2.5 hours to Mexico's industrial capital. Advisory from TXICRO.
 
 ### HERO
+
 **Headline:** McAllen ↔ Monterrey
 **Subheadline:** 2.5 hours separate McAllen, Texas from Monterrey, Mexico's industrial capital — and the economic relationship between these two cities defines cross-border commerce in the Western Hemisphere.
 
@@ -43,16 +47,20 @@ TXICRO provides advisory and coordination services for organizations navigating 
 **CTA:** Request an Assessment →
 
 ---
+
 ---
 
 # PAGE 14: McALLEN VS LAREDO
+
 ## Route: /why-mcallen/vs-laredo
 
 ### META
+
 - **Title:** McAllen vs Laredo | Best Border City for Business in Texas | TXICRO
 - **Description:** An honest comparison of McAllen and Laredo as Texas border gateways for international business. Different strengths, different advantages. Independent analysis from TXICRO.
 
 ### HERO
+
 **Headline:** McAllen vs Laredo
 **Subheadline:** Two Texas border cities. Two legitimate gateways. An honest comparison of what each offers — because the right choice depends on what your business actually needs.
 
@@ -95,16 +103,20 @@ Many companies ultimately operate in both cities, using Laredo for freight trans
 **CTA:** Request an Assessment →
 
 ---
+
 ---
 
 # PAGE 15: McALLEN ↔ AUSTIN / SAN ANTONIO
+
 ## Route: /why-mcallen/austin-corridor
 
 ### META
+
 - **Title:** McAllen to Austin & San Antonio Corridor | Texas Triangle Trade | TXICRO
 - **Description:** The I-35/I-37 corridor connecting McAllen to San Antonio and Austin — tech, defense, nearshoring, and the Texas Triangle economic zone.
 
 ### HERO
+
 **Headline:** McAllen ↔ Austin / San Antonio
 **Subheadline:** The Texas Triangle — connecting McAllen's border gateway to the tech capital and military hub of Central Texas.
 
@@ -131,16 +143,20 @@ San Antonio Economic Development Foundation, Austin Chamber of Commerce, Texas D
 **CTA:** Request an Assessment →
 
 ---
+
 ---
 
 # PAGE 16: McALLEN ↔ HOUSTON
+
 ## Route: /why-mcallen/houston
 
 ### META
+
 - **Title:** McAllen to Houston Corridor | RGV Logistics & Port Access | TXICRO
 - **Description:** Five hours from McAllen to the largest import/export port in the US. Energy, logistics, and supply chain connections through the Houston corridor.
 
 ### HERO
+
 **Headline:** McAllen ↔ Houston
 **Subheadline:** Five hours to the largest import-export port in the United States — and the energy capital of the world.
 
@@ -165,16 +181,20 @@ Port Houston, Greater Houston Partnership, Houston-Galveston Area Council, Texas
 **CTA:** Request an Assessment →
 
 ---
+
 ---
 
 # PAGE 17: THE RGV CITIES
+
 ## Route: /why-mcallen/rgv-cities
 
 ### META
+
 - **Title:** Rio Grande Valley Cities | Edinburg, Pharr, Mission, Hidalgo TX | TXICRO
 - **Description:** The RGV is more than McAllen — Edinburg, Pharr, Mission, Hidalgo, Weslaco each offer distinct economic advantages. Regional overview from TXICRO.
 
 ### HERO
+
 **Headline:** The Rio Grande Valley Cities
 **Subheadline:** McAllen is the anchor, but the RGV is an economic region — and each city brings something different to the table.
 
@@ -205,16 +225,20 @@ Site selection in the RGV is not a one-city decision. A manufacturing operation 
 **CTA:** Request an Assessment →
 
 ---
+
 ---
 
 # PAGE 18: McALLEN ↔ MEXICO CITY
+
 ## Route: /why-mcallen/mexico-city
 
 ### META
+
 - **Title:** McAllen to Mexico City Corridor | CDMX Texas Business Gateway | TXICRO
 - **Description:** Mexico City is where expansion decisions are made. McAllen is where they are executed. Connecting CDMX's corporate headquarters to the Texas border gateway.
 
 ### HERO
+
 **Headline:** McAllen ↔ Mexico City
 **Subheadline:** The decisions are made in Polanco and Santa Fe. The execution happens on the border. McAllen connects Latin America's corporate headquarters to the United States.
 

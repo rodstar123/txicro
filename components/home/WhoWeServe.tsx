@@ -1,67 +1,67 @@
-import { Container, GoldDivider } from '@/components/ui';
+import { Container, GoldDivider } from "@/components/ui";
 
 interface WhoWeServeProps {
-  locale: 'en' | 'es';
+  locale: "en" | "es";
 }
 
 const content = {
   en: {
-    sectionTitle: 'Who We Serve',
+    sectionTitle: "Who We Serve",
     segments: [
       {
-        title: 'International Companies Entering Texas',
+        title: "International Companies Entering Texas",
         description:
-          'Organizations from Latin America, Europe, and Asia exploring the US market through Texas — whether establishing a first presence or expanding existing operations.',
+          "Organizations from Latin America, Europe, and Asia exploring the US market through Texas — whether establishing a first presence or expanding existing operations.",
       },
       {
-        title: 'Foreign Investors & Capital Groups',
+        title: "Foreign Investors & Capital Groups",
         description:
-          'Investment groups evaluating opportunities in real estate, manufacturing, logistics, or commercial ventures in the Rio Grande Valley and South Texas.',
+          "Investment groups evaluating opportunities in real estate, manufacturing, logistics, or commercial ventures in the Rio Grande Valley and South Texas.",
       },
       {
-        title: 'Trade Missions & Delegations',
+        title: "Trade Missions & Delegations",
         description:
-          'Government-sponsored and private trade delegations visiting the region for business development, site selection, or institutional relationship building.',
+          "Government-sponsored and private trade delegations visiting the region for business development, site selection, or institutional relationship building.",
       },
       {
-        title: 'Institutions, Chambers & Organizations',
+        title: "Institutions, Chambers & Organizations",
         description:
-          'Chambers of commerce, economic development corporations, trade associations, and institutional partners seeking coordination and advisory support.',
+          "Chambers of commerce, economic development corporations, trade associations, and institutional partners seeking coordination and advisory support.",
       },
       {
-        title: 'Texas Entities Going Global',
+        title: "Texas Entities Going Global",
         description:
-          'Texas-based businesses looking to expand into Latin American markets, establish cross-border operations, or build international partnerships.',
+          "Texas-based businesses looking to expand into Latin American markets, establish cross-border operations, or build international partnerships.",
       },
     ],
   },
   es: {
-    sectionTitle: 'A Quién Servimos',
+    sectionTitle: "A Quién Servimos",
     segments: [
       {
-        title: 'Empresas Internacionales que Ingresan a Texas',
+        title: "Empresas Internacionales que Ingresan a Texas",
         description:
-          'Organizaciones de América Latina, Europa y Asia que exploran el mercado estadounidense a través de Texas — ya sea estableciendo una primera presencia o expandiendo operaciones existentes.',
+          "Organizaciones de América Latina, Europa y Asia que exploran el mercado estadounidense a través de Texas — ya sea estableciendo una primera presencia o expandiendo operaciones existentes.",
       },
       {
-        title: 'Inversionistas Extranjeros y Grupos de Capital',
+        title: "Inversionistas Extranjeros y Grupos de Capital",
         description:
-          'Grupos de inversión que evalúan oportunidades en bienes raíces, manufactura, logística o empresas comerciales en el Valle del Río Grande y el sur de Texas.',
+          "Grupos de inversión que evalúan oportunidades en bienes raíces, manufactura, logística o empresas comerciales en el Valle del Río Grande y el sur de Texas.",
       },
       {
-        title: 'Misiones Comerciales y Delegaciones',
+        title: "Misiones Comerciales y Delegaciones",
         description:
-          'Delegaciones comerciales gubernamentales y privadas que visitan la región para desarrollo de negocios, selección de sitios o construcción de relaciones institucionales.',
+          "Delegaciones comerciales gubernamentales y privadas que visitan la región para desarrollo de negocios, selección de sitios o construcción de relaciones institucionales.",
       },
       {
-        title: 'Instituciones, Cámaras y Organizaciones',
+        title: "Instituciones, Cámaras y Organizaciones",
         description:
-          'Cámaras de comercio, corporaciones de desarrollo económico, asociaciones comerciales y socios institucionales que buscan apoyo de coordinación y asesoría.',
+          "Cámaras de comercio, corporaciones de desarrollo económico, asociaciones comerciales y socios institucionales que buscan apoyo de coordinación y asesoría.",
       },
       {
-        title: 'Empresas Texanas con Proyección Global',
+        title: "Empresas Texanas con Proyección Global",
         description:
-          'Empresas basadas en Texas que buscan expandirse hacia mercados latinoamericanos, establecer operaciones transfronterizas o construir alianzas internacionales.',
+          "Empresas basadas en Texas que buscan expandirse hacia mercados latinoamericanos, establecer operaciones transfronterizas o construir alianzas internacionales.",
       },
     ],
   },
@@ -84,7 +84,7 @@ export default function WhoWeServe({ locale }: WhoWeServeProps) {
               key={i}
               className={`border-l-2 border-gold pl-4${
                 /* Center the last two cards on lg when there are 5 items */
-                i >= 3 ? ' sm:col-span-1 lg:col-start-auto' : ''
+                i >= 3 ? " sm:col-span-1 lg:col-start-auto" : ""
               }`}
             >
               <h3 className="text-white font-heading text-lg font-semibold">

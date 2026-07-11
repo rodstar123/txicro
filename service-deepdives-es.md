@@ -1,16 +1,20 @@
 # TXICRO.COM — 6 PÁGINAS DE SERVICIOS DETALLADOS (ESPAÑOL)
 
 ---
+
 ---
 
 # PÁGINA 6: ASESORÍA PARA ENTRADA AL MERCADO
+
 ## Ruta: /es/services/market-entry
 
 ### META
+
 - **Title:** Asesoría para Entrada al Mercado Internacional | Consultoría Texas | TXICRO
 - **Description:** Asesoría estructurada para organizaciones internacionales que evalúan la entrada al mercado de Texas. Evaluación de preparación, panorama regulatorio y recomendaciones desde McAllen, TX.
 
 ### HERO
+
 **Titular:** Asesoría para Entrada al Mercado Internacional
 **Subtítulo:** Una evaluación estructurada sobre si, cuándo y cómo su organización debería ingresar al mercado de Texas y Estados Unidos — entregada como una recomendación escrita sobre la cual puede actuar.
 
@@ -53,21 +57,26 @@ Entonces usted se ha ahorrado un error costoso. Nuestro modelo basado en honorar
 Nuestra experiencia más profunda está en el VRG y el sur de Texas. Para ubicaciones en Houston, Austin, Dallas o San Antonio, podemos proporcionar orientación general y referirle a especialistas regionales.
 
 ### CTA
+
 **Titular:** ¿Listo para Evaluar su Entrada a Texas?
 **CTA:** Solicitar una Evaluación →
 **Enlaces cruzados:** Relacionado: Evaluación de Riesgos | Mapeo de Actores | Apoyo a Delegaciones
 
 ---
+
 ---
 
 # PÁGINA 7: EVALUACIÓN DE RIESGOS TRANSFRONTERIZOS
+
 ## Ruta: /es/services/cross-border-risk
 
 ### META
+
 - **Title:** Evaluación de Riesgos Transfronterizos | Consultoría de Riesgos México-Texas | TXICRO
 - **Description:** Análisis estructurado de riesgos comerciales, regulatorios y operacionales para organizaciones que operan en el corredor EE.UU.-México. Evaluación independiente desde McAllen, TX.
 
 ### HERO
+
 **Titular:** Estrategia Transfronteriza y Evaluación de Riesgos
 **Subtítulo:** Un análisis objetivo de lo que puede salir mal — comercial, regulatoria y operacionalmente — antes de que comprometa capital, contratos o reputación.
 
@@ -99,20 +108,25 @@ Nuestra evaluación se enfoca en el lado estadounidense de las operaciones trans
 La debida diligencia es típicamente específica a una transacción y retrospectiva. La evaluación de riesgos es prospectiva — evalúa lo que podría afectar su operación en el futuro.
 
 ### CTA
+
 **Titular:** Conozca Sus Riesgos Antes de Comprometerse
 **CTA:** Solicitar una Evaluación →
 
 ---
+
 ---
 
 # PÁGINA 8: MAPEO DE ACTORES CLAVE
+
 ## Ruta: /es/services/stakeholder-mapping
 
 ### META
+
 - **Title:** Mapeo de Socios y Actores Clave | Identificación de Socios Comerciales Texas | TXICRO
 - **Description:** Identifique y secuencie relaciones con actores clave en Texas — agencias gubernamentales, cámaras, organizaciones de desarrollo económico, socios del sector privado.
 
 ### HERO
+
 **Titular:** Mapeo de Socios y Actores Clave
 **Subtítulo:** Saber quién importa — y en qué orden acercarse — es la diferencia entre una entrada fluida y meses de esfuerzo perdido.
 
@@ -129,20 +143,25 @@ Mapeamos actores en instituciones públicas incluyendo corporaciones de desarrol
 Un mapa integral de actores clave con perfiles de organizaciones e individuos relevantes. Un plan de secuenciación de vinculación que recomienda a quién acercarse primero, segundo y tercero — y por qué. Coordinación de presentaciones para actores donde TXICRO tiene relaciones existentes. Un documento informativo para cada reunión o presentación planificada. Un sistema de seguimiento para mantener el impulso después del contacto inicial.
 
 ### CTA
+
 **Titular:** Mapee Su Camino Antes de Recorrerlo
 **CTA:** Solicitar una Evaluación →
 
 ---
+
 ---
 
 # PÁGINA 9: RELACIONES COMERCIALES
+
 ## Ruta: /es/services/trade-relations
 
 ### META
+
 - **Title:** Relaciones Comerciales e Institucionales | Asesoría de Protocolo Texas | TXICRO
 - **Description:** Navegue marcos institucionales, agencias gubernamentales, organismos comerciales y cámaras de comercio con estrategia consciente del protocolo. Orientación independiente desde McAllen, TX.
 
 ### HERO
+
 **Titular:** Relaciones Comerciales e Institucionales
 **Subtítulo:** Navegando el panorama institucional con el protocolo correcto, los límites correctos y el momento correcto.
 
@@ -155,20 +174,25 @@ TXICRO proporciona orientación para organizaciones que necesitan navegar estos 
 Nuestra orientación cubre estrategia de relaciones institucionales y planificación de vinculación, conciencia del protocolo para interacciones gubernamentales y cuasi-gubernamentales, guía de límites para asegurar la separación apropiada entre actividades comerciales e institucionales, estrategia de vinculación con cámaras de comercio y asociaciones comerciales, y preparación para reuniones con funcionarios gubernamentales o actores institucionales.
 
 ### CTA
+
 **Titular:** Navegue las Instituciones con Confianza
 **CTA:** Solicitar una Evaluación →
 
 ---
+
 ---
 
 # PÁGINA 10: INFORMES ESTRATÉGICOS
+
 ## Ruta: /es/services/strategic-briefings
 
 ### META
+
 - **Title:** Informes Estratégicos y Reportes de Asesoría | Informes Ejecutivos | TXICRO
 - **Description:** Informes escritos independientes para equipos de liderazgo y socios institucionales. Memorándums de decisión, documentos para juntas directivas y resúmenes ejecutivos sobre comercio transfronterizo.
 
 ### HERO
+
 **Titular:** Informes Estratégicos y Reportes de Asesoría
 **Subtítulo:** Análisis independiente y escrito en el que los equipos de liderazgo pueden confiar — porque fue producido por un asesor sin interés en el resultado.
 
@@ -192,20 +216,25 @@ Depende del alcance. Los memorándums de decisión son típicamente de cinco a d
 Sí. Ofrecemos sesiones de presentación donde guiamos a su equipo a través de los hallazgos y respondemos preguntas en tiempo real.
 
 ### CTA
+
 **Titular:** Obtenga el Análisis que Su Equipo Necesita
 **CTA:** Solicitar una Evaluación →
 
 ---
+
 ---
 
 # PÁGINA 11: APOYO A DELEGACIONES
+
 ## Ruta: /es/services/delegation-support
 
 ### META
+
 - **Title:** Apoyo a Delegaciones y Misiones Comerciales | Coordinación Texas | TXICRO
 - **Description:** Coordinación integral para delegaciones comerciales visitantes y misiones de negocios al Valle del Río Grande. Planificación de agenda, informes, logística y seguimiento desde McAllen, TX.
 
 ### HERO
+
 **Titular:** Apoyo a Delegaciones y Misiones Comerciales
 **Subtítulo:** Coordinación profesional para delegaciones visitantes y misiones comerciales — desde el diseño de agenda hasta el seguimiento posterior, ejecutado con la precisión que su visita demanda.
 
@@ -233,6 +262,7 @@ El asesor principal de TXICRO es bilingüe en inglés y español. Para delegacio
 Hemos coordinado visitas para delegaciones de tres a veinticinco participantes. La estructura de agenda y el enfoque logístico se escalan al tamaño del grupo.
 
 ### CTA
+
 **Titular:** Haga que Cada Visita Cuente
 Su delegación merece más que una lista de reuniones. Merece una estrategia.
 **CTA:** Solicitar una Evaluación →

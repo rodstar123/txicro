@@ -1,9 +1,11 @@
 # TXICRO.COM — SERVICES HUB PAGE CONTENT (ENGLISH)
+
 ## Route: /services
 
 ---
 
 ### META
+
 - **Title:** Advisory Services | TXICRO | Cross-Border Consulting & Market Entry | McAllen, TX
 - **Description:** Fee-based advisory services for international market entry, cross-border risk assessment, stakeholder mapping, trade relations, strategic briefings, and delegation support in Texas.
 - **OG Title:** TXICRO Advisory Services — Think Before You Act
@@ -64,11 +66,12 @@ For visiting delegations and trade missions that need professional coordination 
 **Section Subtitle:** Three engagement options designed for different stages of your cross-border journey.
 
 **Tier 1: Initial Assessment**
-*One-time engagement*
+_One-time engagement_
 
 The starting point for every new relationship. A structured evaluation of your objectives, readiness, and the landscape you are entering — delivered as a written report with clear findings and recommended next steps.
 
 What you receive:
+
 - Confidential intake consultation (60-90 minutes)
 - Written assessment report with findings, risk factors, and recommendations
 - Go/no-go recommendation with supporting rationale
@@ -77,11 +80,12 @@ What you receive:
 Best for: Organizations in the early stages of evaluating Texas or the Rio Grande Valley. You need clarity before making any commitments.
 
 **Tier 2: Strategic Advisory Package**
-*Project-based engagement*
+_Project-based engagement_
 
 A comprehensive engagement scoped to a defined objective — market entry, risk assessment, stakeholder mapping, or delegation coordination. Includes all deliverables specific to the service, plus ongoing access to Noe Rodriguez throughout the engagement.
 
 What you receive:
+
 - Full scope of the selected service(s) with all deliverables
 - Direct access to the principal advisor throughout the engagement
 - Written reports, briefings, and documentation
@@ -91,11 +95,12 @@ What you receive:
 Best for: Organizations ready to act on a specific objective. You have identified the opportunity and need expert support to execute with precision.
 
 **Tier 3: Ongoing Retainer**
-*Monthly engagement*
+_Monthly engagement_
 
 Continuous advisory support for organizations with active or expanding cross-border operations. Includes regular strategy sessions, ongoing stakeholder coordination, and priority access to TXICRO's advisory resources.
 
 What you receive:
+
 - Monthly strategy sessions with the principal advisor
 - Ongoing stakeholder coordination and introduction management
 - Priority response on emerging questions and opportunities

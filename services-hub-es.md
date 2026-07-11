@@ -1,9 +1,11 @@
 # TXICRO.COM — PÁGINA DE SERVICIOS (ESPAÑOL)
+
 ## Ruta: /es/services
 
 ---
 
 ### META
+
 - **Title:** Servicios de Asesoría | TXICRO | Consultoría Transfronteriza | McAllen, TX
 - **Description:** Servicios de asesoría basados en honorarios para entrada al mercado internacional, evaluación de riesgos transfronterizos, mapeo de actores clave, relaciones comerciales e informes estratégicos en Texas.
 - **OG Title:** Servicios de Asesoría TXICRO — Piense Antes de Actuar
@@ -64,11 +66,12 @@ Para delegaciones visitantes y misiones comerciales que necesitan coordinación 
 **Subtítulo:** Tres opciones de contratación diseñadas para diferentes etapas de su recorrido transfronterizo.
 
 **Nivel 1: Evaluación Inicial**
-*Compromiso único*
+_Compromiso único_
 
 El punto de partida para toda nueva relación. Una evaluación estructurada de sus objetivos, preparación y el panorama al que ingresa — entregada como un informe escrito con hallazgos claros y próximos pasos recomendados.
 
 Lo que recibe:
+
 - Consulta confidencial de ingreso (60-90 minutos)
 - Informe de evaluación escrito con hallazgos, factores de riesgo y recomendaciones
 - Recomendación de proceder o no, con fundamento de respaldo
@@ -77,11 +80,12 @@ Lo que recibe:
 Ideal para: Organizaciones en etapas tempranas de evaluación de Texas o el Valle del Río Grande. Necesita claridad antes de asumir cualquier compromiso.
 
 **Nivel 2: Paquete de Asesoría Estratégica**
-*Compromiso por proyecto*
+_Compromiso por proyecto_
 
 Un compromiso integral definido para un objetivo específico — entrada al mercado, evaluación de riesgos, mapeo de actores clave o coordinación de delegaciones. Incluye todos los entregables específicos del servicio, más acceso directo a Noe Rodriguez durante todo el compromiso.
 
 Lo que recibe:
+
 - Alcance completo del servicio(s) seleccionado(s) con todos los entregables
 - Acceso directo al asesor principal durante todo el compromiso
 - Informes escritos, presentaciones y documentación
@@ -91,11 +95,12 @@ Lo que recibe:
 Ideal para: Organizaciones listas para actuar sobre un objetivo específico. Ha identificado la oportunidad y necesita apoyo experto para ejecutar con precisión.
 
 **Nivel 3: Retención Continua**
-*Compromiso mensual*
+_Compromiso mensual_
 
 Apoyo de asesoría continuo para organizaciones con operaciones transfronterizas activas o en expansión. Incluye sesiones regulares de estrategia, coordinación continua de actores clave y acceso prioritario a los recursos de asesoría de TXICRO.
 
 Lo que recibe:
+
 - Sesiones mensuales de estrategia con el asesor principal
 - Coordinación continua de actores clave y gestión de presentaciones
 - Respuesta prioritaria a preguntas y oportunidades emergentes

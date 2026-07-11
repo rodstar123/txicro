@@ -1,21 +1,21 @@
-import { generatePageMetadata } from '@/lib/metadata';
-import Breadcrumbs from '@/components/Breadcrumbs';
-import ServicesHero from '@/components/services/ServicesHero';
-import ServiceIntro from '@/components/services/ServiceIntro';
-import ServiceCards from '@/components/services/ServiceCards';
-import EngagementTiers from '@/components/services/EngagementTiers';
-import AudienceSegments from '@/components/services/AudienceSegments';
-import ServiceProcess from '@/components/services/ServiceProcess';
-import ServiceFAQ from '@/components/services/ServiceFAQ';
-import CTASection from '@/components/CTASection';
-import { Container } from '@/components/ui';
+import { generatePageMetadata } from "@/lib/metadata";
+import Breadcrumbs from "@/components/Breadcrumbs";
+import ServicesHero from "@/components/services/ServicesHero";
+import ServiceIntro from "@/components/services/ServiceIntro";
+import ServiceCards from "@/components/services/ServiceCards";
+import EngagementTiers from "@/components/services/EngagementTiers";
+import AudienceSegments from "@/components/services/AudienceSegments";
+import ServiceProcess from "@/components/services/ServiceProcess";
+import ServiceFAQ from "@/components/services/ServiceFAQ";
+import CTASection from "@/components/CTASection";
+import { Container } from "@/components/ui";
 
 export const metadata = generatePageMetadata({
-  title: 'Advisory Services | TXICRO | McAllen, TX',
+  title: "Advisory Services | TXICRO | McAllen, TX",
   description:
-    'Fee-based advisory for market entry, cross-border risk, stakeholder mapping, trade relations, briefings, and delegation support in Texas.',
-  path: '/services',
-  locale: 'en',
+    "Fee-based advisory for market entry, cross-border risk, stakeholder mapping, trade relations, briefings, and delegation support in Texas.",
+  path: "/services",
+  locale: "en",
 });
 
 export default function ServicesPage() {
@@ -25,7 +25,7 @@ export default function ServicesPage() {
       <div className="bg-white pt-8">
         <Container>
           <Breadcrumbs
-            items={[{ label: 'Services', href: '/services' }]}
+            items={[{ label: "Services", href: "/services" }]}
             locale="en"
           />
         </Container>

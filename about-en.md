@@ -1,9 +1,11 @@
 # TXICRO.COM — ABOUT NOE RODRIGUEZ PAGE CONTENT (ENGLISH)
+
 ## Route: /about
 
 ---
 
 ### META
+
 - **Title:** About Noe Rodriguez | Founder, TXICRO | McAllen Cross-Border Advisor
 - **Description:** Noe Rodriguez — born and raised in McAllen, TX. 60 years in the Rio Grande Valley. Entrepreneur, cross-border commerce advisor, and founder of TXICRO.
 - **OG Title:** Noe Rodriguez — The Man Behind TXICRO

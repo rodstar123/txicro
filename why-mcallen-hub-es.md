@@ -1,9 +1,11 @@
 # TXICRO.COM — POR QUÉ McALLEN (ESPAÑOL)
+
 ## Ruta: /es/why-mcallen
 
 ---
 
 ### META
+
 - **Title:** Por Qué McAllen, Texas | Portal Estratégico para Comercio Internacional | TXICRO
 - **Description:** McAllen, TX se ubica en la encrucijada del comercio entre EE.UU. y América Latina. A 2.5 horas de Monterrey, ZCE #12, sin impuesto estatal, fuerza laboral bilingüe.
 - **OG Title:** ¿Por Qué McAllen? El Portal Estratégico Entre EE.UU. y América Latina

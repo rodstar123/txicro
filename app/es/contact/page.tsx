@@ -1,45 +1,45 @@
-import { generatePageMetadata } from '@/lib/metadata';
-import Breadcrumbs from '@/components/Breadcrumbs';
-import AssessmentForm from '@/components/AssessmentForm';
-import ContactInfo from '@/components/contact/ContactInfo';
-import LeadMagnet from '@/components/contact/LeadMagnet';
-import { Container, GoldDivider } from '@/components/ui';
+import { generatePageMetadata } from "@/lib/metadata";
+import Breadcrumbs from "@/components/Breadcrumbs";
+import AssessmentForm from "@/components/AssessmentForm";
+import ContactInfo from "@/components/contact/ContactInfo";
+import LeadMagnet from "@/components/contact/LeadMagnet";
+import { Container, GoldDivider } from "@/components/ui";
 
 export const metadata = generatePageMetadata({
-  title: 'Solicitar una Evaluación | Contacte a TXICRO',
+  title: "Solicitar una Evaluación | Contacte a TXICRO",
   description:
-    'Comience con claridad — solicite una evaluaci\u00f3n estructurada de TXICRO para sus necesidades comerciales internacionales en Texas.',
-  path: '/es/contact',
-  locale: 'es',
+    "Comience con claridad — solicite una evaluaci\u00f3n estructurada de TXICRO para sus necesidades comerciales internacionales en Texas.",
+  path: "/es/contact",
+  locale: "es",
 });
 
 const localBusinessSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'ProfessionalService',
-  name: 'Texas International Commerce & Relations Office',
-  alternateName: 'TXICRO',
-  url: 'https://txicro.com',
-  logo: 'https://txicro.com/images/txicro-logo.png',
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  name: "Texas International Commerce & Relations Office",
+  alternateName: "TXICRO",
+  url: "https://txicro.com",
+  logo: "https://txicro.com/images/txicro-logo.png",
   description:
-    'Asesoría transfronteriza para empresas internacionales, inversionistas e instituciones que ingresan a Texas a través del Valle del Río Grande.',
+    "Asesoría transfronteriza para empresas internacionales, inversionistas e instituciones que ingresan a Texas a través del Valle del Río Grande.",
   address: {
-    '@type': 'PostalAddress',
-    streetAddress: '315 W Nolana Ave, Suite G-6',
-    addressLocality: 'McAllen',
-    addressRegion: 'TX',
-    postalCode: '78504',
-    addressCountry: 'US',
+    "@type": "PostalAddress",
+    streetAddress: "315 W Nolana Ave, Suite G-6",
+    addressLocality: "McAllen",
+    addressRegion: "TX",
+    postalCode: "78504",
+    addressCountry: "US",
   },
-  email: 'info@txicro.com',
-  openingHours: 'Mo-Fr 09:00-17:00',
+  email: "info@txicro.com",
+  openingHours: "Mo-Fr 09:00-17:00",
   areaServed: [
-    { '@type': 'Country', name: 'United States' },
-    { '@type': 'Country', name: 'Mexico' },
+    { "@type": "Country", name: "United States" },
+    { "@type": "Country", name: "Mexico" },
   ],
   founder: {
-    '@type': 'Person',
-    name: 'Noe Rodriguez',
-    jobTitle: 'Fundador y Asesor Principal',
+    "@type": "Person",
+    name: "Noe Rodriguez",
+    jobTitle: "Fundador y Asesor Principal",
   },
 };
 
@@ -48,7 +48,9 @@ export default function ContactPageES() {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(localBusinessSchema),
+        }}
       />
       {/* Intro Hero */}
       <section className="bg-navy py-16 lg:py-20">
@@ -70,7 +72,7 @@ export default function ContactPageES() {
       <div className="bg-white pt-8">
         <Container>
           <Breadcrumbs
-            items={[{ label: 'Contacto', href: '/es/contact' }]}
+            items={[{ label: "Contacto", href: "/es/contact" }]}
             locale="es"
           />
         </Container>
