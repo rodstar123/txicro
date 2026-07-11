@@ -53,9 +53,7 @@ async function buildMaster() {
   const { width, height } = await sharp(src).metadata();
   const box = await compassBounds();
 
-  const side = Math.round(
-    Math.max(box.width, box.height) / (1 - PADDING * 2),
-  );
+  const side = Math.round(Math.max(box.width, box.height) / (1 - PADDING * 2));
   const cx = box.left + box.width / 2;
   const cy = box.top + box.height / 2;
 

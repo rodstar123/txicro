@@ -1,0 +1,9 @@
+# Build output & generated files
+.next/
+out/
+.vercel/
+next-env.d.ts
+*.tsbuildinfo
+
+# Managed by npm — reformatting it fights the package manager
+package-lock.json
