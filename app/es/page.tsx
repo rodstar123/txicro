@@ -1,5 +1,6 @@
 import { generatePageMetadata } from "@/lib/metadata";
 import HeroSection from "@/components/home/HeroSection";
+import ProblemSection from "@/components/home/ProblemSection";
 import ValueProps from "@/components/home/ValueProps";
 import NoePreview from "@/components/home/NoePreview";
 import ServicesOverview from "@/components/home/ServicesOverview";
@@ -57,6 +58,7 @@ export default function HomePageES() {
         }}
       />
       <HeroSection locale="es" />
+      <ProblemSection locale="es" />
       <ValueProps locale="es" />
       <NoePreview locale="es" />
       <ServicesOverview locale="es" />

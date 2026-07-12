@@ -3,6 +3,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import AssessmentForm from "@/components/AssessmentForm";
 import ContactInfo from "@/components/contact/ContactInfo";
 import LeadMagnet from "@/components/contact/LeadMagnet";
+import { LEAD_MAGNET_ENABLED } from "@/lib/flags";
 import { Container, GoldDivider } from "@/components/ui";
 
 export const metadata = generatePageMetadata({
@@ -85,8 +86,9 @@ export default function ContactPage() {
         </Container>
       </section>
 
-      {/* Lead Magnet */}
-      <LeadMagnet locale="en" />
+      {/* Lead Magnet — hidden until the Gateway Guide PDF exists and the form
+          actually delivers it. See lib/flags.ts. */}
+      {LEAD_MAGNET_ENABLED && <LeadMagnet locale="en" />}
 
       {/* Contact Info + Map */}
       <ContactInfo locale="en" />

@@ -9,22 +9,20 @@ const content = {
   en: {
     headline: "Where the Border Becomes a Bridge.",
     subheadline:
-      "TXICRO — An Office for International Commerce and Relations. McAllen, Texas.",
+      "Independent, fee-based advisory for international companies entering Texas. Market entry assessments, risk analysis, and the right introductions — with no commissions and no conflicts of interest.",
+    officeLine: "TXICRO · McAllen, Texas",
     ctaPrimary: "Request an Assessment",
-    ctaSecondary: "Download the McAllen Gateway Guide",
     founderLine: "Noe Rodriguez — Founder & Principal Advisor",
     ctaPrimaryHref: "/contact",
-    ctaSecondaryHref: "#",
   },
   es: {
     headline: "Donde la Frontera Se Convierte en Puente.",
     subheadline:
-      "TXICRO — Una Oficina de Comercio Internacional y Relaciones. McAllen, Texas.",
+      "Asesoría independiente para empresas internacionales que entran a Texas. Evaluaciones de entrada al mercado, análisis de riesgo y las conexiones correctas — sin comisiones y sin conflictos de interés.",
+    officeLine: "TXICRO · McAllen, Texas",
     ctaPrimary: "Solicitar una Evaluación",
-    ctaSecondary: "Descargue la Guía de McAllen como Portal de Comercio",
     founderLine: "Noe Rodriguez — Fundador y Asesor Principal",
     ctaPrimaryHref: "/es/contact",
-    ctaSecondaryHref: "#",
   },
 };
 
@@ -63,7 +61,11 @@ export default function HeroSection({ locale }: HeroSectionProps) {
           {t.subheadline}
         </p>
 
-        <div className="mt-7 sm:mt-8 flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
+        <p className="font-body text-sm text-gray-400 mt-3 sm:mt-4">
+          {t.officeLine}
+        </p>
+
+        <div className="mt-7 sm:mt-8 flex justify-center">
           <Button
             href={t.ctaPrimaryHref}
             variant="primary"
@@ -71,14 +73,6 @@ export default function HeroSection({ locale }: HeroSectionProps) {
             className="w-full sm:w-auto"
           >
             {t.ctaPrimary}
-          </Button>
-          <Button
-            href={t.ctaSecondaryHref}
-            variant="secondary"
-            size="lg"
-            className="w-full sm:w-auto"
-          >
-            {t.ctaSecondary}
           </Button>
         </div>
 

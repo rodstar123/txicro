@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Container } from "@/components/ui";
+import { serviceOutcomes } from "@/lib/service-outcomes";
 
 interface ServiceCardsProps {
   locale: "en" | "es";
@@ -230,6 +231,9 @@ export default function ServiceCards({ locale }: ServiceCardsProps) {
                 </h3>
                 <p className="text-slate text-sm mt-2 leading-relaxed font-body">
                   {card.description}
+                </p>
+                <p className="text-slate text-sm italic mt-3 leading-relaxed font-body">
+                  {serviceOutcomes[card.slug][locale]}
                 </p>
                 <Link
                   href={`${t.serviceBase}/${card.slug}`}

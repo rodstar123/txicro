@@ -2,7 +2,7 @@ import { generatePageMetadata } from "@/lib/metadata";
 import PlaceholderPage from "@/components/PlaceholderPage";
 
 export const metadata = generatePageMetadata({
-  title: "Insights & Articles",
+  title: "Insights & Articles | TXICRO",
   description:
     "Expert analysis on cross-border commerce, market entry strategy, and the Rio Grande Valley economy.",
   path: "/insights",

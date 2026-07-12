@@ -19,7 +19,10 @@ export function generatePageMetadata({
   const esPath = enPath === "/" ? "/es" : `/es${enPath}`;
 
   return {
-    title,
+    // `absolute` opts out of the root layout's "%s | TXICRO" template. Page
+    // titles already carry the brand, and the template was appending it a
+    // second time ("Advisory Services | TXICRO | McAllen, TX | TXICRO").
+    title: { absolute: title },
     description,
     alternates: {
       canonical: `${BASE_URL}${path}`,
